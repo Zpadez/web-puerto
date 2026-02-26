@@ -253,6 +253,10 @@ Footer
     background-color: var(--azul-osc) !important;
 }
 
+.text-acento {
+    color: var(--verde-osc);
+}
+
 /*=====================================
   2.  Header
 =======================================*/
