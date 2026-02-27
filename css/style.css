@@ -115,8 +115,8 @@ Footer
 }
 @font-face {
     font-family: 'Mont';
-    src: url('Mont-RegularItalic.woff2') format('woff2'),
-        url('Mont-RegularItalic.woff') format('woff');
+    src: url('/fonts/mont/Mont-RegularItalic.woff2') format('woff2'),
+        url('/fonts/mont/Mont-RegularItalic.woff') format('woff');
     font-weight: 400;
     font-style: italic;
     font-display: swap;
