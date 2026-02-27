@@ -189,8 +189,8 @@ Footer
 /*soul*/
 @font-face {
     font-family: 'Soul Signature';
-    src: url('/fonts/soul_signature/SoulSignature.woff2') format('woff2'),
-        url('/fonts/soul_signature/SoulSignature.woff') format('woff');
+    src: url('../fonts/soul_signature/SoulSignature.woff2') format('woff2'),
+        url('../fonts/soul_signature/SoulSignature.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -356,6 +356,9 @@ Footer
     }
 }
 
+.txt-acento-cursi {
+    font-family: 'Soul Signature' !important;
+}
 .txt-acento {
     color: var(--verde-osc) !important;
 }
@@ -409,6 +412,37 @@ Footer
 
 .text-acento {
     color: var(--verde-osc);
+}
+
+.btn-busca {
+    padding: 11px;
+    color: var(--blanco);
+    font-weight: 500;
+    border: 2px solid var(--azul-osc);
+    border-radius: 15px;
+    background-color: var(--azul-osc);
+}
+.btn-busca:hover {
+    color: var(--blanco);
+}
+
+.form-busca option:checked {
+    color: var(--blanco);
+    background-color: var(--verde-cla);
+}
+
+.underline-dots {
+    display: flex;
+    justify-content: space-evenly;
+    width: 164px;
+    margin: 10px auto 21px;
+}
+
+.circul {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--verde-osc);
 }
 
 /*=====================================
@@ -465,7 +499,7 @@ Footer
 }
 .titu-hero {
     width: 481px;
-    padding-bottom: 21px;
+    padding-bottom: 8px;
     font-family: 'Mont';
     font-size: var(--subtitu-grd);
     font-weight: 700;
@@ -475,7 +509,7 @@ Footer
 
 .txt-hero {
     width: 434px;
-    margin-bottom: 37px !important;
+    margin-bottom: 11px !important;
     font-family: 'Mont';
     font-size: var(--parrafo);
     font-weight: 400;
@@ -513,7 +547,7 @@ Footer
 }
 
 .btn-hero {
-    padding: 14px;
+    padding: 11px;
     color: var(--azul-osc);
     font-weight: 500;
     border: 2px solid var(--azul-osc);
@@ -529,7 +563,45 @@ Footer
 /*-------------------------------------
     4.  Propiedades
 --------------------------------------*/
-.titu-propie, .cat-item h6 {
+.titu-propie {
+    margin-bottom: 0 !important;
+    font-family: 'Mont';
+    font-size: var(--titulo);
+    color: var(--azul-osc);
+}
+.subtitu-propie {
+    margin-bottom: 13px !important;
+    font-family: 'Mont';
+    font-size: var(--subtitu);
+    font-style: italic;
+    text-transform: uppercase;
+    color: var(--azul-osc);
+}
+.txt-propie {
+    margin-bottom: 0 !important;
+    font-family: 'Mont';
+    font-weight: 400;
+    font-size: var(--parrafo);
+    text-align: center;
+    line-height: 18px;
+    color: var(--azul-osc);
+}
+.txt-propie1 {
+    width: 257px;
+    margin: 17px auto 0 !important;
+    padding: 7px;
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+    color: var(--blanco);
+    background-color: var(--verde-cla);
+}
+.cat-item h6 {
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 700;
     color: var(--azul-osc);
 }
 
@@ -571,9 +643,12 @@ Footer
     display: block;
     margin: auto;
     width: 22%;
-    padding: 14px;
-    color: var(--azul-osc);
+    padding: 11px;
+    font-family: 'Mont';
+    font-size: var(--parrafo);
     font-weight: 500;
+    line-height: 18px;
+    color: var(--azul-osc);
     border: 2px solid var(--azul-osc);
     border-radius: 15px;
     transition: all 0.3s ease;
@@ -605,6 +680,11 @@ Footer
 }
 
 .titu-noso {
+    width: 568px;
+    font-family: 'Mont';
+    font-size: var(--subtitu-grd);
+    font-weight: 800;
+    line-height: 42px;
     color: var(--azul-osc);
 }
 
@@ -648,6 +728,7 @@ Footer
 
 .subtitu-propie {
     font-size: var(--subtitu);
+    font-style: italic;
     text-transform: uppercase;
     color: var(--azul-osc);
 }
