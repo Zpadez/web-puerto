@@ -657,6 +657,9 @@ Footer
 .property-item .border-end {
     border-right: 1px dashed rgba(119, 143, 85, 0.6) !important;
 }
+.property-item .border-bottom {
+    border-bottom: 1px dashed rgba(119, 143, 85, 0.6) !important;
+}
 
 .icon-invert {
     width: 104px;
@@ -920,6 +923,19 @@ Footer
 /*-------------------------------------
     14. Hero Portafo
 --------------------------------------*/
+.titu-hero-protafo {
+    width: 481px;
+    padding-bottom: 8px;
+    font-family: 'Mont';
+    font-size: var(--subtitu-grd);
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 4px solid var(--verde-osc) !important;
+}
+
+.titu-hero-terre {
+    width: 307px;
+}
 
 /*-------------------------------------
     15. Filtro Portafo
@@ -956,6 +972,11 @@ Footer
     overflow-y: scroll;
 }
 
+.mapa-fraccion iframe {
+    border: 2px dashed var(--verde-cla) !important;
+    border-radius: 100%;
+}
+
 .btn-fraccion {
     -ms-flex: 0 0 43%;
         flex: 0 0 43%;
@@ -970,6 +991,9 @@ Footer
     transition: all 0.3s ease;
     overflow: hidden;
 }
+.btn-fraccion-none {
+    border: none;
+}
 .contain-fraccion-img {
     height: 143px;
     margin-bottom: 9px;
@@ -981,13 +1005,7 @@ Footer
     max-width: 100%;
 }
 
-.btn-fraccion p {
-    font-size: var(--subtitu);
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--verde-osc);
 
-}
 .btn-fraccion:hover p {
     color: var(--blanco);
 
@@ -1007,8 +1025,84 @@ Footer
     transform: scale(1.1);
 }
 
+.btn-fraccion p {
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--verde-osc);
+}
+
+.btn-fraccion .property-item h5 {
+    font-family: 'Mont';
+    font-size: 14px;
+    color: var(--verde-osc) !important;
+}
+.btn-fraccion .property-item h5 {
+    margin-top: 1px;
+    margin-bottom: 0 !important;
+}
+.btn-fraccion .property-item .p-4 a {
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
+    color: var(--azul-osc);
+}
+
+.btn-fraccion .property-item .p-4 p i,
+.btn-fraccion .property-item .d-flex small i {
+    color: var(--verde-osc) !important;
+}
+.btn-fraccion .property-item .d-flex small {
+    font-family: 'Mont';
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--azul-osc);
+}
+
+.btn-fraccion:hover .property-item .p-4 a,
+.btn-fraccion.active .property-item .p-4 a,
+.btn-fraccion:hover .property-item h5,
+.btn-fraccion.active .property-item h5,
+.btn-fraccion:hover .property-item .p-4 p i,
+.btn-fraccion.active .property-item .p-4 p i,
+.btn-fraccion:hover p,
+.btn-fraccion.active p {
+    color: var(--blanco) !important;
+}
+
+.property-item .border-top {
+    border-top: 1px dashed rgba(119, 143, 85, 0.6) !important;
+}
+
+.btn-fraccion:hover .property-item .border-top,
+.btn-fraccion.active .property-item .border-top,
+.btn-fraccion:hover .property-item .border-bottom,
+.btn-fraccion.active .property-item .border-bottom {
+    border-top: 1px dashed var(--blanco) !important;
+}
+.btn-fraccion .property-item .border-end {
+    border-right: 1px dashed var(--blanco) !important;
+}
+.btn-fraccion:hover .property-item .border-bottom,
+.btn-fraccion.active .property-item .border-bottom {
+    border-bottom: 1px dashed var(--blanco) !important;
+}
+
+.btn-fraccion:hover .property-item .border-end,
+.btn-fraccion.active .property-item .border-end {
+    border-right: 1px dashed var(--blanco) !important;
+}
+
+.btn-fraccion:hover .property-item .d-flex small i,
+.btn-fraccion.active .property-item .d-flex small i,
+.btn-fraccion:hover .property-item .d-flex small,
+.btn-fraccion.active .property-item .d-flex small {
+    color: var(--blanco) !important;
+}
+
 .titus-fraccion {
-    font-size: 18px !important;
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
+    font-weight: 700;
     text-align: left;
     color: var(--azul-osc) !important;
 }
@@ -1022,8 +1116,7 @@ Footer
 
 .info-fraccion {
     width: 229px;
-    margin: auto;
-    margin-bottom: 16px;
+    margin: 18px auto;
 }
 .icon-dire {
     color: var(--verde-osc) !important;
@@ -1038,6 +1131,7 @@ Footer
     width: 100%;
     margin: auto;
     padding: 9px;
+    font-family: 'Mont';
     font-size: var(--parrafo);
     font-weight: 700;
     text-align: center;
@@ -1074,16 +1168,6 @@ Footer
 .btn-fraccion.active .infor-fraccion p:nth-child(1) {
     border-right: 1px dashed var(--blanco) !important;
 }
-
-.btn-fraccion:hover .titus-fraccion,
-.btn-fraccion:hover .direcc-fraccion,
-.btn-fraccion:hover .infor-fraccion p,
-.btn-fraccion.active .titus-fraccion,
-.btn-fraccion.active .direcc-fraccion,
-.btn-fraccion.active .infor-fraccion p {
-    color: var(--blanco) !important;
-}
-
 /*-------------------------------------
     16. Agendar Portafo
 --------------------------------------*/
@@ -1520,9 +1604,110 @@ Footer
     height: auto;
 }
 
+.titu-foot {
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
+    font-weight: 600;
+    color: var(--blanco);
+}
+
+.txt-foot {
+    font-family: 'Mont';
+    font-size: var(--parrafo-tlf);
+    font-weight: 400;
+    color: var(--blanco);
+}
+.firma-foot {
+    font-family: 'Mont';
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blanco);
+}
+
+.dev-link {
+    font-family: 'Mont';
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blanco);
+    transition: all 0.3s ;
+}
+.dev-link:hover {
+    color: var(--verde-osc);
+}
+
 .btn-snd-foot, .btn-snd-foot:hover {
     color: var(--blanco);
     background-color: var(--verde-osc);
+}
+
+.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    font-family: 'Mont';
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--blanco);
+    transition: .3s;
+}
+
+.link-foot::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+    border-color: var(--light);
+}
+
+.footer .form-control {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
 }
 
 
@@ -1610,76 +1795,4 @@ Footer
         padding-left: 4rem;
         padding-right: 4rem;
     }
-}
-
-
-
-
-/*** Footer ***/
-.footer .btn.btn-social {
-    margin-right: 5px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--light);
-    border: 1px solid rgba(255,255,255,0.5);
-    border-radius: 35px;
-    transition: .3s;
-}
-
-.footer .btn.btn-social:hover {
-    color: var(--primary);
-    border-color: var(--light);
-}
-
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
-}
-
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
-
-.footer .btn.btn-link:hover {
-    letter-spacing: 1px;
-    box-shadow: none;
-}
-
-.footer .form-control {
-    border-color: rgba(255,255,255,0.5);
-}
-
-.footer .copyright {
-    padding: 25px 0;
-    font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright a {
-    color: var(--light);
-}
-
-.footer .footer-menu a {
-    margin-right: 15px;
-    padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
-}
-
-.footer .footer-menu a:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
 }
