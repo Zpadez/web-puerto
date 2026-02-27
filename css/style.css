@@ -39,7 +39,7 @@ Footer
     --azul-osc: #0b2635;
     --azul-med: #294d5a;
     --blanco: #fff;
-    --titulo: 40px;
+    --titulo: 44px;
     --titulo-grd: 60px;
     --titulo-tlf: 30px;
     --subtitu: 22px;
@@ -193,6 +193,16 @@ Footer
         url('../fonts/soul_signature/SoulSignature.woff') format('woff');
     font-weight: 400;
     font-style: italic;
+    font-display: swap;
+}
+
+/*winlove*/
+@font-face {
+    font-family: 'Winlove - Personal Use';
+    src: url('../fonts/winlove/WinlovePersonalUse.woff2') format('woff2'),
+        url('../fonts/winlove/WinlovePersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -356,8 +366,14 @@ Footer
     }
 }
 
+.txt-acento-ng {
+    font-weight: 700 !important;
+}
 .txt-acento-cursi {
-    font-family: 'Soul Signature' !important;
+    font-family: 'Winlove - Personal Use' !important;
+}
+.txt-acento-cla {
+    color: var(--verde-cla) !important;
 }
 .txt-acento {
     color: var(--verde-osc) !important;
@@ -443,6 +459,13 @@ Footer
     height: 12px;
     border-radius: 100%;
     background-color: var(--verde-osc);
+}
+
+.underline-ver {
+    width: 283px;
+    height: 4px;
+    margin: 10px auto 21px;
+    background-color: var(--verde-cla);
 }
 
 /*=====================================
@@ -689,6 +712,7 @@ Footer
 }
 
 .txt-fraccio-destaca, .punto-fraccio-destaca {
+    font-family: 'Mont';
     font-size: var(--parrafo);
     line-height: 18px;
     color: var(--azul-osc);
@@ -699,7 +723,8 @@ Footer
 }
 
 .btn-somos {
-    padding: 14px;
+    font-family: 'Mont';
+    padding: 11px;
     color: var(--azul-osc);
     font-weight: 500;
     border: 2px solid var(--azul-osc);
@@ -715,32 +740,39 @@ Footer
 /*-------------------------------------
     6.  Lista propiedades
 --------------------------------------*/
-.titu-propie {
-    font-size: var(--titulo);
-    color: var(--azul-osc);
-}
-
-.txt-propie {
-    font-size: var(--parrafo);
-    line-height: 18px;
-    color: var(--azul-osc);
-}
-
-.subtitu-propie {
-    font-size: var(--subtitu);
-    font-style: italic;
+.titu-propies {
+    text-align: center;
     text-transform: uppercase;
-    color: var(--azul-osc);
 }
-
-.txt-propie {
-    margin: 0 !important;
+.titu-propies1 {
+    font-family: 'Mont';
     font-size: var(--parrafo);
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 9px;
+    color: var(--verde-osc);
+}
+.titu-propies2 {
+    font-family: 'Mont';
+    font-size: var(--titulo);
+    font-weight: 900;
     line-height: 18px;
     color: var(--azul-osc);
 }
 
-.btn-list-propie {
+.txt-propies {
+    width: 664px;
+    margin: auto;
+    margin-bottom: 0 !important;
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    color: var(--azul-osc);
+}
+
+.btn-list-propies {
     padding: 10px;
     color: var(--azul-osc);
     font-size: 14px;
@@ -750,41 +782,56 @@ Footer
     transition: all 0.3s ease;
 }
 
-.btn-list-propie:hover, .btn-list-propie.active {
+.btn-list-propies:hover, .btn-list-propies.active {
     border: 1px solid var(--azul-osc);
     color: var(--blanco);
     outline: rgba(11, 38, 53, 0.3);
     background-color: var(--azul-osc);
 }
 
-.sena-propie {
+.sena-propies {
     background-color: var(--azul-osc);
 }
 
-.tab-propie .property-item .position-relative div:nth-child(3),
-.tab-propie .property-item h5 {
+.tab-propies .property-item .position-relative div:nth-child(3),
+.tab-propies .property-item h5 {
+    font-family: 'Mont';
+    font-size: var(--parrafo);
     color: var(--verde-osc) !important;
 }
-.tab-propie .property-item .p-4 a {
+.tab-propies .property-item h5 {
+    margin-top: 1px;
+    margin-bottom: 0 !important;
+}
+.tab-propies .property-item .p-4 a {
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
     color: var(--azul-osc);
 }
 
-.tab-propie .property-item .p-4 p i,
-.tab-propie .property-item .d-flex small i {
+.tab-propies .property-item .p-4 p i,
+.tab-propies .property-item .d-flex small i {
     color: var(--verde-osc) !important;
 }
+.tab-propies .property-item .d-flex small {
+    font-family: 'Mont';
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--azul-osc);
+}
 
-.btn-mas-propie {
-    padding: 14px;
+.btn-mas-propies {
+    padding: 11px;
+    font-family: 'Mont';
     color: var(--azul-osc);
     font-weight: 500;
     border: 2px solid var(--azul-osc);
     border-radius: 15px;
     transition: all 0.3s ease;
 }
-.btn-mas-propie:hover {
-    border: 2px solid var(--azul-osc);
+.btn-mas-propies:hover {
     color: var(--blanco);
+    border: 2px solid var(--azul-osc);
     background-color: var(--azul-osc);
 }
 
@@ -792,17 +839,48 @@ Footer
     7.  Testimonios
 --------------------------------------*/
 .titu-testimo {
-    color: var(--azul-osc);
+    margin-bottom: 0 !important;
+    font-family: 'Mont';
+    font-size: var(--titulo);
+    font-weight: 900;
+    text-align: center;
+    color: var(--azul-med);
 }
 
 .txt-testimo {
+    font-family: 'Mont';
     font-size: var(--parrafo);
+    font-weight: 400;
     line-height: 18px;
+    text-align: center;
     color: var(--azul-osc);
+}
+.item-testimo {
+    background-color: #eaf3dc;
+}
+.item-testimo p {
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: var(--azul-osc);
+}
+.item-testimo h6 {
+    font-family: 'Mont';
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--azul-osc);
+}
+.item-testimo small {
+    font-family: 'Mont';
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--azul-med);
 }
 
 .testimonial-carousel .testimonial-item .border {
-    border: 1px dashed rgba(0, 185, 142, .3) !important;
+    border: 1px dashed rgba(119, 143, 85, 0.3) !important;
 }
 
 .testimonial-carousel .owl-nav {
