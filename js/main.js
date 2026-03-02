@@ -76,6 +76,26 @@
             }
         }
     });
+
+    // Testimonials carousel
+    $(".proyectos-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 24,
+        dots: true,
+        loop: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            768: {
+                items: 1
+            },
+            992:{
+                items:1
+            }
+        }
+    });
     
 })(jQuery);
 

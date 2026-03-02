@@ -28,6 +28,9 @@ D.  Promociones
   22. Contenido promociones
 E.  Contacto
   23. Contenido contacto
+F.  Proyectos
+  24. Hero proyectos
+  25. Contenido proyectos
 Footer
 ===========================================*/
 /*=====================================
@@ -507,6 +510,10 @@ Footer
     height: 4px;
     margin: -16px auto 21px;
     background-color: var(--blanco);
+}
+
+.list-none {
+    list-style: none;
 }
 
 /*=====================================
@@ -995,12 +1002,11 @@ Footer
     list-style: none;
     padding: 0;
 }
-
 .col-geolocaliza1 {
     -ms-flex: 0 0 42%;
         flex: 0 0 42%;
     max-width: 100%;
-    height: 487px;
+    height: 353px;
     overflow: hidden;
 }
 .col-geolocaliza2 {
@@ -1011,9 +1017,9 @@ Footer
     overflow-y: scroll;
 }
 
-.mapa-fraccion iframe {
-    border: 2px dashed var(--verde-cla) !important;
-    border-radius: 100%;
+.mapa-fraccion video {
+    border: 3px dashed var(--verde-cla) !important;
+    border-radius: 21px;
 }
 
 .btn-fraccion {
@@ -1657,6 +1663,139 @@ Footer
     border: 2px solid var(--azul-osc);
     background-color: var(--azul-osc);
 }
+
+/*=====================================
+  F.  Proyectos
+=======================================*/
+/*-------------------------------------
+    24. Hero proyectos
+--------------------------------------*/
+.container-hero-servis {
+    padding: 0;
+    background: url("../img/3-servicios/bg-hero-terres.webp") center center no-repeat;
+    background-size: cover;
+}
+
+.contain-hero-proyectos {
+    width: 100%;
+    padding: 194px 349px 129px;
+    background-color: rgba(44, 67, 7, 0.38);
+}
+
+.txt-hero-proyectos {
+    margin-bottom: 4px;
+    font-family: 'Mont';
+    font-size: var(--subtitu);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: var(--blanco);
+}
+
+.titu-hero-proyectos {
+    margin: auto;
+    margin-top: 48px;
+    font-family: 'Mont';
+    font-size: var(--titulo-grd);
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: var(--azul-osc);
+}
+
+/*-------------------------------------
+    25. Contenido proyectos
+--------------------------------------*/
+.proyectos-carousel .owl-dots .owl-dot span {
+    width: 18px;
+    height: 18px;
+    border: 3px solid var(--verde-cla);
+    border-radius: 100%;
+    background-color: transparent;
+}
+.proyectos-carousel .owl-dots .owl-dot:hover span,
+.proyectos-carousel .owl-dots .owl-dot.active span {
+    background-color: var(--verde-cla);
+}
+
+.titu-proye {
+    text-align: left;
+    text-transform: uppercase;
+}
+.titu-proye1 {
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 9px;
+    color: var(--verde-osc);
+}
+.titu-proye2 {
+    font-family: 'Mont';
+    font-size: var(--titulo);
+    font-weight: 900;
+    line-height: 18px;
+    color: var(--azul-osc);
+}
+
+.underline-somos {
+    margin-top: 1px;
+}
+
+.txt-proyec {
+    margin-bottom: 7px;
+    font-size: var(--parrafo);
+    line-height: 18px;
+    color: var(--azul-med);
+}
+.video-proyec {
+    margin-top: 90px;
+}
+
+/* .list-ventajas-proyec {
+    padding-left: 0;
+} */
+.item-ventajas-proyec {
+    color: var(--verde-osc);
+}
+.list-ventajas-proyec-2 {
+    margin-top: 60px;
+}
+.titus-item-proyec {
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
+    font-weight: 800;
+    line-height: 23px;
+    color: var(--azul-osc);
+}
+
+.contain-btns-proyec {
+    margin-top: 21px;
+}
+
+.btn-proyec {
+    margin: 0 13px;
+    padding: 11px;
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    text-align: center;
+    line-height: 17px;
+    color: var(--azul-osc);
+    border: 3px solid var(--azul-osc);
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.btn-proyec:hover {
+    color: var(--blanco);
+    border: 3px solid var(--azul-osc);
+    background-color: var(--azul-osc);
+}
+
+
+
+
 
 
 /*=====================================

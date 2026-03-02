@@ -1,3 +1,34 @@
+/*=========== TABLE OF CONTENTS ===========
+1.  CSS General
+2.  Header
+A.  Home
+  3.  Hero home
+  4.  Propiedades
+  5.  Fraccionamiento destacado
+  6.  Lista propiedades
+  7.  Testimonios
+  8.  Contador
+  9.  Por qué
+  10. Blog
+  11. FAQ
+  12. Testimonios
+  13. Banner WS
+B.  Portafolio
+  14. Hero Portafo
+  15. Filtro Portafo
+  16. Agendar Portafo
+C.  Servicios
+  17. Hero Servicios
+  18. Contenido servicios
+  19. Credenciales
+  20. Misión/Visión
+  21. Valores
+D.  Promociones
+  22. Contenido promociones
+E.  Contacto
+  23. Contenido contacto
+Footer
+===========================================*/
 @media (max-width: 768px) {
     .col-geolocaliza {
         -ms-flex: 0 0 100%;
@@ -23,5 +54,25 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         padding-left: 12%;
+    }
+}
+
+@media (max-width: 1600px) {
+    /*=====================================
+        B.  Portafolio
+    =======================================*/
+    /*-------------------------------------
+            15. Filtro Portafo
+    --------------------------------------*/
+    .propies-flex {
+        padding: 0 12px;
+    }
+
+    .btn-fraccion img {
+        width: 311px;
+    }
+
+    .btn-fraccion p {
+        font-size: 17px;
     }
 }
