@@ -46,7 +46,7 @@
 }
 
 .front {
-	background: url("/img/4-promociones/promo-bg-0.webp") 0 0 no-repeat;
+	background: url("../img/4-promociones/promo-bg-0.webp") 0 0 no-repeat;
     background-position: center;
 	z-index: 2;
 }
