@@ -39,13 +39,14 @@ Footer
     --azul-osc: #0b2635;
     --azul-med: #294d5a;
     --blanco: #fff;
-    --titulo: 44px;
-    --titulo-grd: 60px;
+    --titulo: 35px;
+    --titulo-grd: 56px;
     --titulo-tlf: 30px;
+    --titulo-tlf-1: 25px;
     --subtitu: 22px;
-    --subtitu-grd: 35px;
+    --subtitu-grd: 33px;
     --subtitu-tlf: 20px;
-    --parrafo: 16px;
+    --parrafo: 15px;
     --parrafo-grd: 21px;
     --parrafo-tlf: 13px;
 
@@ -382,6 +383,13 @@ Footer
     font-weight: 800;
     color: var(--verde-osc) !important;
 }
+.txt-acento-ub-1 {
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.txt-acento-b {
+    font-weight: 700;
+}
 .txt-acento-ital {
     font-style: italic;
 }
@@ -454,11 +462,31 @@ Footer
     margin: 10px auto 21px;
 }
 
+.underline-dots-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 164px;
+    margin: -16px 100% 21px auto;
+}
+
+.underline-dots-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 164px;
+    margin: -16px 100% 21px auto;
+}
+
 .circul {
     width: 12px;
     height: 12px;
     border-radius: 100%;
     background-color: var(--verde-osc);
+}
+.circul-1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--blanco);
 }
 
 .underline-ver {
@@ -466,6 +494,19 @@ Footer
     height: 4px;
     margin: 10px auto 21px;
     background-color: var(--verde-cla);
+}
+.underline-ver-1 {
+    width: 443px;
+    height: 4px;
+    margin: -16px 100% 21px auto;
+    background-color: var(--verde-osc);
+}
+
+.underline-ver-2 {
+    width: 535px;
+    height: 4px;
+    margin: -16px auto 21px;
+    background-color: var(--blanco);
 }
 
 /*=====================================
@@ -522,21 +563,20 @@ Footer
 }
 .titu-hero {
     width: 481px;
-    padding-bottom: 8px;
     font-family: 'Mont';
     font-size: var(--subtitu-grd);
     font-weight: 700;
     text-align: left;
-    border-bottom: 4px solid var(--verde-osc) !important;
+    line-height: 35px;
 }
 
 .txt-hero {
     width: 434px;
-    margin-bottom: 11px !important;
+    margin-bottom: 18px !important;
     font-family: 'Mont';
     font-size: var(--parrafo);
     font-weight: 400;
-    line-height: 18px;
+    line-height: 17px;
     color: var(--azul-osc);
 }
 
@@ -925,13 +965,11 @@ Footer
     14. Hero Portafo
 --------------------------------------*/
 .titu-hero-protafo {
-    width: 481px;
-    padding-bottom: 8px;
     font-family: 'Mont';
-    font-size: var(--subtitu-grd);
+    font-size: var(--titulo-grd);
     font-weight: 700;
     text-align: left;
-    border-bottom: 4px solid var(--verde-osc) !important;
+    line-height: 58px;
 }
 
 .titu-hero-terre {
@@ -969,7 +1007,7 @@ Footer
     -ms-flex: 0 0 56%;
         flex: 0 0 56%;
     max-width: 100%;
-    height: 519px;
+    height: 487px;
     overflow-y: scroll;
 }
 
@@ -1104,7 +1142,7 @@ Footer
     font-family: 'Mont';
     font-size: var(--parrafo-grd);
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     color: var(--azul-osc) !important;
 }
 .direcc-fraccion {
@@ -1182,15 +1220,15 @@ Footer
     padding: 14px;
     color: var(--blanco);
     font-weight: 500;
-    border: 2px solid var(--verde-osc);
+    border: 2px solid var(--verde-cla);
     border-radius: 6px;
-    background-color: var(--verde-osc);
+    background-color: var(--verde-cla);
     transition: all 0.3s ease;
 }
 .btn-llamar:hover {
     color: var(--blanco);
-    border: 2px solid var(--verde-osc);
-    background-color: var(--verde-osc);
+    border: 2px solid var(--verde-cla);
+    background-color: var(--verde-cla);
 }
 
 .btn-agendar {
@@ -1216,43 +1254,68 @@ Footer
 --------------------------------------*/
 .container-hero-servis {
     padding: 0;
-    background: url("/img/3-servicios/hero-servicios.webp") center center no-repeat;
+    background: url("/img/3-servicios/bg-hero-terres.webp") center center no-repeat;
     background-size: cover;
 }
 
 .contain-hero-somos {
     width: 100%;
-    padding: 170px 100px 160px;
-    background-color: rgba(44, 67, 7, 0.6);
+    padding: 180px 294px 160px;
+    background-color: rgba(44, 67, 7, 0.38);
 }
 
 .txt-hero-somos {
-    font-size: 18px;
+    margin-bottom: 4px;
+    font-family: 'Mont';
+    font-size: var(--parrafo-grd);
+    font-weight: 700;
     text-align: center;
-    color: var(--blanco);
+    letter-spacing: 7px;
+    color: var(--azul-osc);
 }
 
 .titu-hero-somos {
-    font-size: var(--titulo);
-    line-height: 42px;
+    margin: auto;
+    font-family: 'Mont';
+    font-size: var(--titulo-tlf-1);
+    font-weight: 500;
+    line-height: 32px;
     text-align: center;
-    color: var(--blanco);
+    color: var(--azul-osc);
 }
 
 /*-------------------------------------
     18. Contenido servicios
 --------------------------------------*/
 .titu-somos {
+    text-align: left;
+    text-transform: uppercase;
+}
+.titu-somos1 {
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 9px;
+    color: var(--verde-osc);
+}
+.titu-somos2 {
+    font-family: 'Mont';
     font-size: var(--titulo);
-    line-height: 42px;
+    font-weight: 900;
+    line-height: 18px;
     color: var(--azul-osc);
 }
 
+.underline-somos {
+    margin-top: 1px;
+}
+
 .txt-somos {
-    width: 284px;
+    width: 394px;
     font-size: var(--parrafo);
     line-height: 18px;
-    color: var(--azul-osc);
+    color: var(--azul-med);
 }
 
 /*-------------------------------------
@@ -1266,18 +1329,22 @@ Footer
 }
 .row-creden {
     justify-content: center;
+    padding: 31px 0 !important;
 }
 .col-creden {
     margin: 0 12px;
-    padding: 17px;
+    padding: 3px;
 }
 .contain-creden {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 189px;
+    height: 221px;
     border-radius: 100%;
     background-color: #294d5a;
+    -webkit-box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
+       -moz-box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
+            box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
 }
 .num-creden {
     margin: 0;
@@ -1288,8 +1355,9 @@ Footer
 }
 .txt-creden {
     margin: 0;
+    font-family: 'Mont';
     font-size: var(--subtitu);
-    font-weight: 700;
+    font-weight: 600;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -1339,7 +1407,7 @@ Footer
 }
 
 .col-valores1 {
-    background: url("/img/3-servicios/valor-bg.webp") center center no-repeat;
+    background: url("../img/3-servicios/valor-bg.webp") center center no-repeat;
     background-size: cover;
 }
 .col-valores2 {
