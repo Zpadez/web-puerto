@@ -53,11 +53,10 @@
 
 .back {
 	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-
-	background: #f8f8f8;
+	   -moz-transform: rotateY(180deg);
+    	 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+	background: var(--azul-osc);
 }
 
 /* .front .name {

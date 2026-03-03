@@ -151,4 +151,37 @@ Footer
     .titus-fraccion {
         font-size: var(--subtitu);
     }
+    /*-------------------------------------
+            18. Contenido servicios
+    --------------------------------------*/
+    .col-somos:nth-child(2) {
+        padding-left: 48px;
+    }
+    .titu-somos1 {
+        font-size: var(--parrafo-grd);
+        letter-spacing: 11px;   
+    }
+    .titu-somos2 {
+        font-size: var(--titulo-grd-1);
+    }
+    .txt-somos {
+        width: 494px;
+        font-size: var(--parrafo-grd-1);
+        line-height: 21px;
+    }
+
+    /*-------------------------------------
+            19. Credenciales
+    --------------------------------------*/
+    .contain-creden {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 243px;
+        border-radius: 100%;
+        background-color: #294d5a;
+        -webkit-box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
+           -moz-box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
+                box-shadow: 5px 4px 10px 3px rgba(0,0,0,0.45);
+    }
 }
