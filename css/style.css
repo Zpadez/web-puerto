@@ -44,6 +44,7 @@ Footer
     --blanco: #fff;
     --titulo: 35px;
     --titulo-grd: 56px;
+    --titulo-grd-1: 40px;
     --titulo-tlf: 30px;
     --titulo-tlf-1: 25px;
     --subtitu: 22px;
@@ -51,6 +52,7 @@ Footer
     --subtitu-tlf: 20px;
     --parrafo: 15px;
     --parrafo-grd: 21px;
+    --parrafo-grd-1: 19px;
     --parrafo-tlf: 13px;
 
     --primary: #00B98E;
@@ -618,8 +620,10 @@ Footer
 
 .btn-hero {
     padding: 11px;
-    color: var(--azul-osc);
+    font-family: 'Mont';
+    font-size: var(--parrafo);
     font-weight: 500;
+    color: var(--azul-osc);
     border: 2px solid var(--azul-osc);
     border-radius: 15px;
     transition: all 0.3s ease;

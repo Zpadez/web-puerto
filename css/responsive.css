@@ -57,7 +57,35 @@ Footer
     }
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
+    /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 540px;
+    }
+
+    /*=====================================
+        A.  Home
+    =======================================*/
+    /*-------------------------------------
+            3.  Hero home
+    --------------------------------------*/
+    .titu-hero {
+        width: 543px;
+        font-size: var(--titulo-grd-1);
+    }
+
+    .txt-hero {
+        width: 550px;
+        font-size: var(--parrafo-grd-1);
+    }
+
+    .btn-hero {
+        font-size: var(--parrafo-grd-1);
+        border: 3px solid var(--azul-osc);
+    }
+    
     /*=====================================
         B.  Portafolio
     =======================================*/
