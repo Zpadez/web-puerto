@@ -385,21 +385,27 @@ Footer
     color: var(--verde-osc) !important;
 }
 .txt-acento-ub {
-    font-weight: 800;
+    font-weight: 800 !important;
     color: var(--verde-osc) !important;
 }
 .txt-acento-ub-1 {
-    font-weight: 900;
-    letter-spacing: 4px;
+    font-weight: 900 !important;
+    letter-spacing: 4px !important;
+}
+.txt-acento-ub-2 {
+    font-weight: 800 !important;
 }
 .txt-acento-b {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 .txt-acento-ital {
-    font-style: italic;
+    font-style: italic !important;
 }
 .txt-acento1 {
     color: var(--azul-osc) !important;
+}
+.txt-acento-bla {
+    color: #fff !important;
 }
 
 .bg-verde-claro {
@@ -637,6 +643,10 @@ Footer
 /*-------------------------------------
     4.  Propiedades
 --------------------------------------*/
+.cuadro-somos {
+    margin-top: -62px;
+    margin-bottom: 20px;
+}
 .titu-propie {
     margin-bottom: 0 !important;
     font-family: 'Mont';
@@ -662,7 +672,7 @@ Footer
 }
 .txt-propie1 {
     width: 257px;
-    margin: 17px auto 0 !important;
+    margin: 29px auto 0 !important;
     padding: 7px;
     font-family: 'Mont';
     font-size: var(--parrafo);
@@ -761,11 +771,12 @@ Footer
     font-family: 'Mont';
     font-size: var(--subtitu-grd);
     font-weight: 800;
-    line-height: 42px;
+    line-height: 35px;
     color: var(--azul-osc);
 }
 
 .txt-fraccio-destaca, .punto-fraccio-destaca {
+    width: 507px;
     font-family: 'Mont';
     font-size: var(--parrafo);
     line-height: 18px;
@@ -897,9 +908,13 @@ Footer
     margin-bottom: 0 !important;
     font-family: 'Mont';
     font-size: var(--titulo);
-    font-weight: 900;
+    font-weight: 600;
     text-align: center;
     color: var(--azul-med);
+}
+
+.titu-testimo span {
+    font-size: 53px !important;
 }
 
 .txt-testimo {
@@ -1278,11 +1293,10 @@ Footer
     margin-bottom: 4px;
     font-family: 'Mont';
     font-size: var(--subtitu);
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 7px;
-    color: var(--blanco);
+    color: var(--azul-osc);
 }
 
 .titu-hero-somos {
@@ -1808,13 +1822,13 @@ Footer
 .bg-footer {
     background-color: var(--azul-osc);
 }
-.row-footer {
-    align-items: center;
-}
 
 .logo-footer {
-    width: 300px;
+    display: block;
+    width: 267px;
     height: auto;
+    margin: auto;
+    margin-top: 17%;
 }
 
 .titu-foot {

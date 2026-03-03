@@ -57,12 +57,16 @@ Footer
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1500px) {
     /*=====================================
         1.  CSS General
     =======================================*/
     .underline-ver-1 {
         width: 540px;
+    }
+    .circul {
+        width: 14px;
+        height: 14px;
     }
 
     /*=====================================
@@ -85,6 +89,42 @@ Footer
         font-size: var(--parrafo-grd-1);
         border: 3px solid var(--azul-osc);
     }
+
+    /*-------------------------------------
+            5.  Fraccionamiento destacado
+    --------------------------------------*/
+    .titu-noso {
+        width: 568px;
+        font-size: var(--titulo);
+        line-height: 37px;
+    }
+
+    .txt-fraccio-destaca, .punto-fraccio-destaca {
+        font-family: 'Mont';
+        font-size: var(--parrafo-grd-1);
+        line-height: 21px;
+        color: var(--azul-osc);
+    }
+
+    /*-------------------------------------
+            6.  Lista propiedades
+    --------------------------------------*/
+    .titu-propies1 {
+        font-size: var(--parrafo-grd-1);
+    }
+
+    .titu-propies2 {
+        font-size: var(--titulo-grd-1);
+    }
+
+    .txt-propies {
+        width: 800px;
+        font-size: var(--parrafo-grd-1);
+    }
+
+    .btn-list-propies {
+        font-size: 16px;
+    }
     
     /*=====================================
         B.  Portafolio
@@ -92,6 +132,10 @@ Footer
     /*-------------------------------------
             15. Filtro Portafo
     --------------------------------------*/
+    .col-geolocaliza2 {
+        height: 521px;
+    }
+
     .propies-flex {
         padding: 0 12px;
     }
@@ -102,5 +146,9 @@ Footer
 
     .btn-fraccion p {
         font-size: 17px;
+    }
+
+    .titus-fraccion {
+        font-size: var(--subtitu);
     }
 }
