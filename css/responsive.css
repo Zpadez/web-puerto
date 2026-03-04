@@ -31,11 +31,21 @@ Footer
 ===========================================*/
 @media (max-width: 768px) {
     /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 100px;
+    }
+
+    /*=====================================
         A.  Home
     =======================================*/
     /*-------------------------------------
             3.  Hero home
     --------------------------------------*/
+    .container-hero-home {
+        width: auto;
+    }
     .container-hero-home .row  {
         display: flex;
         flex-direction: column !important;
@@ -45,6 +55,53 @@ Footer
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .titu-hero {
+        width: auto;
+        font-size: var(--subtitu-tlf);
+        line-height: 22px;
+    }
+
+    .txt-hero {
+        width: auto;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    /*-------------------------------------
+            5.  Fraccionamiento destacado
+    --------------------------------------*/
+    .titu-noso {
+        width: auto;
+        font-family: 'Mont';
+        font-size: var(--subtitu-grd);
+        font-weight: 800;
+        line-height: 35px;
+        color: var(--azul-osc);
+    }
+
+    .txt-fraccio-destaca, .punto-fraccio-destaca {
+        width: auto;
+        font-family: 'Mont';
+        font-size: var(--parrafo);
+        line-height: 18px;
+        color: var(--azul-osc);
+    }
+
+    /*-------------------------------------
+            6.  Lista propiedades
+    --------------------------------------*/
+    .txt-propies {
+        width: auto;
+        margin: auto;
+        margin-bottom: 0 !important;
+        font-family: 'Mont';
+        font-size: var(--parrafo);
+        font-weight: 400;
+        text-align: center;
+        line-height: 20px;
+        color: var(--azul-osc);
     }
 
     /*=====================================

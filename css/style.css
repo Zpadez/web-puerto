@@ -220,6 +220,9 @@ Footer
     z-index: 99;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 /*** Spinner ***/
 #spinner {
