@@ -725,6 +725,9 @@ Footer
     color: var(--blanco);
     background-color: var(--verde-cla);
 }
+.cat-item {
+    text-decoration: none;
+}
 .cat-item h6 {
     font-family: 'Mont';
     font-size: var(--parrafo);
