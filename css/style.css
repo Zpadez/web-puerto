@@ -369,12 +369,6 @@ Footer
     }
 }
 
-@media (max-width: 768px) {
-    .header-carousel .owl-nav {
-        left: 25px;
-    }
-}
-
 .txt-acento-ng {
     font-weight: 700 !important;
 }
@@ -1138,7 +1132,7 @@ Footer
     transform: scale(1.1);
 }
 
-.btn-fraccion p {
+.direcc-protafo {
     font-size: 14px;
     text-align: left;
     text-transform: uppercase;
@@ -1154,13 +1148,13 @@ Footer
     margin-top: 1px;
     margin-bottom: 0 !important;
 }
-.btn-fraccion .property-item .p-4 a {
+.nom-direcc  {
     font-family: 'Mont';
     font-size: var(--parrafo-grd);
     color: var(--azul-osc);
 }
 
-.btn-fraccion .property-item .p-4 p i,
+.btn-fraccion .property-item .p-4 a i,
 .btn-fraccion .property-item .d-flex small i {
     color: var(--verde-osc) !important;
 }
@@ -1175,8 +1169,8 @@ Footer
 .btn-fraccion.active .property-item .p-4 a,
 .btn-fraccion:hover .property-item h5,
 .btn-fraccion.active .property-item h5,
-.btn-fraccion:hover .property-item .p-4 p i,
-.btn-fraccion.active .property-item .p-4 p i,
+.btn-fraccion:hover .property-item .p-4 a i,
+.btn-fraccion.active .property-item .p-4 a i,
 .btn-fraccion:hover p,
 .btn-fraccion.active p {
     color: var(--blanco) !important;
@@ -1860,6 +1854,11 @@ Footer
 }
 .video-proyec {
     margin-top: 90px;
+}
+
+.video-proyec video {
+    width: auto !important;
+    height: auto !important;
 }
 
 /* .list-ventajas-proyec {

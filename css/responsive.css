@@ -43,6 +43,15 @@ Footer
     /*-------------------------------------
             3.  Hero home
     --------------------------------------*/
+    .header-carousel .owl-nav {
+        position: absolute;
+        top: 1%;
+        left: 93px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 200px;
+    }
     .container-hero-home {
         width: auto;
     }
