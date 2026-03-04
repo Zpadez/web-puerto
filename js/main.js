@@ -24,11 +24,20 @@
             $('.nav-bar').removeClass('sticky-top');
         }
     });
+
+    // Redes button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.colap-redes').fadeIn('slow');
+        } else {
+            $('.colap-redes').fadeOut('slow');
+        }
+    });
     
     
     // Back to top button
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 360) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');

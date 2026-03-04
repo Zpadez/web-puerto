@@ -215,7 +215,7 @@ Footer
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
+    right: 79px;
     bottom: 45px;
     z-index: 99;
 }
@@ -526,80 +526,45 @@ Footer
 
 /* acordeon redes */
 .btn-colapse {
-	display: inline-block;
-	position: fixed;
-	bottom: 145px;
-	left: 7px;
-	/* font-size: var(--parrafo); */
-	transition: ease-in-out .5s;
+    position: fixed;
+    right: 73px;
+	bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
 	z-index: 999;
 }
-#accordion {
-	padding: 10px !important;
-	width: 576px !important;
-	height: 262px !important;
-	border-radius: 10px !important;
-	background-color: var(--blanco) !important;
-	overflow-y: scroll;
+.btn-contac {
+    color: var(--blanco);
+    border: 2px solid var(--blanco);
+    border-radius: 100%;
+    background-color: var(--azul-osc);
+    transition: all 0.3s ease-in-out;
 }
-#accordion::-webkit-scrollbar {width: 8px !important;}
-
-#accordion::-webkit-scrollbar-track {background: var(--blanco) !important;}
-  
-#accordion::-webkit-scrollbar-thumb {
-	background: rgba(234, 94, 143, 0.75) !important;
-	border-radius: 10px !important;
+.btn-contac:hover {
+    color: var(--azul-osc);
+    border: 2px solid var(--azul-osc);
+    background-color: var(--blanco);
 }
-  
-#accordion::-webkit-scrollbar-thumb:hover {background: var(--fucsia) !important;}
-
-/*.card {
-	width: 534px !important;
-	margin-right: auto !important;
-	margin-left: auto !important;
-	border-bottom: 1px solid rgba(37, 42, 142, 0.65) !important;
-	background-color: var(--blanco) !important;
-}*/
-.card-header {
-	background-color: var(--blanco) !important;
-	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.6));
+.card-rrss {
+    background-color: var(--azul-osc) !important;
 }
-.btn_faq {
-	font-family: 'Poppins' !important;
-	font-size: var(--parrafo-tlf) !important;
-	text-decoration: none !important;
-	color: var(--morado) !important;
-	background-color: transparent !important;
+.btn-rrss-1 {
+    margin-bottom: 14px;
 }
-.btn_faq:hover {
-	color: var(--blanco	) !important;
-	background-color: var(--morado) !important;
+.btn-rrss {
+    padding: 22px;
+    color: var(--azul-osc);
+    border: 2px solid var(--blanco);
+    border-radius: 100%;
+    background-color: var(--blanco);
+    transition: all 0.3s ease-in-out;
 }
-.card-body {
-	font-family: 'Poppins' !important;
-	font-size: var(--parrafo-tlf) !important;
-	line-height: 15px;
-	color: var(--morado) !important;
-}
-
-.btn-colapso {
-	width: 93px;
-	height: 60px;
-	border: transparent !important;
-	background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.btn-colapso:focus, .btn-colapso:active, .btn-colapso:focus.focus {box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;}
-
-.img_btn-colapse {
-	display: block;
-	width: 57px;
-	height: 57px;
-	margin-right: auto !important;
-	margin-left: auto !important;
-	border: 2px solid var(--morado) !important;
-	border-radius: 100% !important;
-	background-color: var(--blanco) !important;
+.btn-rrss:hover {
+    color: var(--blanco);
+    border: 2px solid var(--blanco);
+    background-color: var(--azul-osc);
 }
 
 /*=====================================
