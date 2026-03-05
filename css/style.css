@@ -734,7 +734,7 @@ Footer
 
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(93, 139, 20, 0.3);
+    border: 1px dashed rgba(93, 139, 20, 0.6);
     transition: .5s;
 }
 
@@ -833,8 +833,9 @@ Footer
 .btn-somos {
     font-family: 'Mont';
     padding: 11px;
-    color: var(--azul-osc);
+    font-size: var(--parrafo);
     font-weight: 500;
+    color: var(--azul-osc);
     border: 2px solid var(--azul-osc);
     border-radius: 15px;
     transition: all 0.3s ease;

@@ -36,6 +36,14 @@ Footer
     .underline-ver-1 {
         width: 100px;
     }
+    .underline-dots {
+        width: 114px;
+    }
+
+    .circul {
+        width: 9px;
+        height: 9px;
+    }
 
     /*=====================================
         A.  Home
@@ -43,14 +51,24 @@ Footer
     /*-------------------------------------
             3.  Hero home
     --------------------------------------*/
+    .col-header-home1 {
+        padding: 25px !important;
+        padding-bottom: 48px !important;
+    }
     .header-carousel .owl-nav {
         position: absolute;
         top: 1%;
-        left: 93px;
+        left: 21%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 200px;
+        width: 216px;
+    }
+    .header-carousel .owl-nav .owl-prev,
+    .header-carousel .owl-nav .owl-next {
+        width: 43px;
+        height: 43px;
+        font-size: 15px;
     }
     .container-hero-home {
         width: auto;
@@ -79,38 +97,85 @@ Footer
     }
 
     /*-------------------------------------
+            4.  Propiedades
+    --------------------------------------*/
+    .titu-propie {
+        font-size: var(--titulo-tlf);
+    }
+
+    .subtitu-propie {
+        font-size: var(--subtitu-tlf);
+    }
+
+    .txt-propie {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .txt-propie1 {
+        width: 172px;
+        margin: 14px auto 0 !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .cat-item div {
+        padding: 16px !important;
+        border: 2px dashed rgba(93, 139, 20, 0.6);
+    }
+
+    .btn-invert {
+        width: 40%;
+        padding: 11px !important;
+        font-size: var(--parrafo-tlf);
+    }
+
+    /*-------------------------------------
             5.  Fraccionamiento destacado
     --------------------------------------*/
+    .about-img {
+        padding: 23px !important;
+    }
+
     .titu-noso {
         width: auto;
-        font-family: 'Mont';
-        font-size: var(--subtitu-grd);
-        font-weight: 800;
-        line-height: 35px;
-        color: var(--azul-osc);
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
     }
 
     .txt-fraccio-destaca, .punto-fraccio-destaca {
         width: auto;
-        font-family: 'Mont';
-        font-size: var(--parrafo);
-        line-height: 18px;
-        color: var(--azul-osc);
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .btn-somos {
+        margin-left: 83px;
+        font-size: var(--parrafo-tlf);
     }
 
     /*-------------------------------------
             6.  Lista propiedades
     --------------------------------------*/
+    .container-propied-home {
+        padding-top: 21px !important;
+        padding-bottom: 32px !important;
+    }
+
+    .titu-propies1 {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+        letter-spacing: 9px;
+    }
+
+    .titu-propies2 {
+        font-size: var(--titulo-tlf);
+    }
+
     .txt-propies {
         width: auto;
-        margin: auto;
-        margin-bottom: 0 !important;
-        font-family: 'Mont';
-        font-size: var(--parrafo);
-        font-weight: 400;
-        text-align: center;
-        line-height: 20px;
-        color: var(--azul-osc);
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
     }
 
     /*=====================================
