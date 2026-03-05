@@ -36,6 +36,7 @@ Footer
     .underline-ver-1 {
         width: 100px;
     }
+
     .underline-dots {
         width: 114px;
     }
@@ -43,6 +44,14 @@ Footer
     .circul {
         width: 9px;
         height: 9px;
+    }
+
+    .back-to-top {
+        right: 24px;
+    }
+
+    .btn-colapse {
+        right: 18px;
     }
 
     /*=====================================
@@ -174,6 +183,23 @@ Footer
 
     .txt-propies {
         width: auto;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    /*-------------------------------------
+            7.  Testimonios
+    --------------------------------------*/
+    .titu-testimo {
+        margin-top: -28px;
+        font-size: var(--titulo-tlf);
+    }
+
+    .titu-testimo span {
+        font-size: 35px !important;
+    }
+
+    .txt-testimo {
         font-size: var(--parrafo-tlf);
         line-height: 15px;
     }
