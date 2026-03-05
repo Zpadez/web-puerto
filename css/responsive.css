@@ -38,7 +38,8 @@ Footer
     }
 
     .underline-dots,
-    .underline-dots-1 {
+    .underline-dots-1,
+    .underline-dots-2 {
         width: 114px;
     }
 
@@ -227,8 +228,8 @@ Footer
             15. Filtro Portafo
     --------------------------------------*/
     .vid-propie {
-        width: 320px !important;
-        height: 180px !important;
+        width: 315px !important;
+        height: 177px !important;
     }
 
     .col-geolocaliza {
@@ -276,6 +277,268 @@ Footer
         margin-bottom: 9px;
         font-size: 13px;
     }
+
+    /*-------------------------------------
+            16. Agendar Portafo
+    --------------------------------------*/
+    .titu-agenda {
+        font-size: var(--titulo-tlf);
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .btn-llamar,
+    .btn-agendar {
+        display: block !important;
+        width: 176px;
+        margin: 16px auto !important;
+        font-size: var(--parrafo-tlf);
+    }
+
+    /*=====================================
+        C.  Servicios
+    =======================================*/
+    /*-------------------------------------
+            17. Hero Servicios
+    --------------------------------------*/
+    .contain-hero-somos {
+        padding: 40px 19px 47px;
+    }
+
+    .txt-hero-somos {
+        margin-bottom: 2px;
+        font-family: 'Mont';
+        font-size: var(--titulo-tlf-1);
+        line-height: 40px;
+    }
+
+    .txt-hero-somos span {
+        font-size: 33px;
+    }
+
+    .titu-hero-somos {
+        font-size: var(--parrafo-grd-1);
+        line-height: 21px;
+    }
+
+    /*-------------------------------------
+            18. Contenido servicios
+    --------------------------------------*/
+    .col-somos:nth-child(1) {
+        display: none;
+    }
+
+    .titu-somos1 {
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .titu-somos2 {
+        font-size: var(--titulo-tlf);
+        line-height: 18px;
+    }
+
+    .txt-somos {
+        width: auto;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    /*-------------------------------------
+            19. Credenciales
+    --------------------------------------*/
+    .row-creden {
+        --bs-gutter-x: 0;
+    }
+
+    .col-creden {
+        -ms-flex: 0 0 72%;
+            flex: 0 0 72%;
+        max-width: 100%;
+        margin: 0 12px 15px;
+    }
+
+    .contain-creden {
+        margin: auto !important;
+        width: 221px;
+        height: 221px;
+    }
+
+    .num-creden {
+        margin: 0;
+        font-size: var(--subtitu-tlf);
+        font-weight: 700;
+        text-align: center;
+        color: var(--blanco);
+    }
+
+    .txt-creden {
+        font-size: var(--subtitu-tlf);
+        line-height: 22px;
+    }
+
+    /*-------------------------------------
+            20. Misión/Visión
+    --------------------------------------*/
+    .titu-mis-vis {
+        font-size: var(--titulo-tlf);
+        line-height: 37px;
+    }
+
+    .txt-mis-vis {
+        font-size: var(--parrafo-tlf);
+    }
+
+    /*-------------------------------------
+            21. Valores
+    --------------------------------------*/
+    .col-mis-vis1 {
+        border-right: 0;
+        border-bottom: 3px solid var(--blanco);
+    }
+
+    .col-mis-vis {
+        padding: 14px 22px;
+    }
+
+    .col-valores1 {
+        display: none;
+    }
+
+    .titu-valores {
+        margin-bottom: 14px;
+        font-size: var(--titulo-tlf);
+    }
+
+    .titu-item-valores img {
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+        max-width: 16%;
+    }
+    .titu-item-valores p {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 100%;
+        font-size: var(--subtitu-tlf);
+        line-height: 22px;
+    }
+
+    .txt-item-valores {
+        width: auto;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    /*-------------------------------------
+            20. Misión/Visión
+    --------------------------------------*/
+    .row-mis-vis {
+        --bs-gutter-x: 0;
+    }
+
+    /*=====================================
+        D.  Promociones
+    =======================================*/
+    /*-------------------------------------
+            22. Contenido promociones
+    --------------------------------------*/
+    .titus-promociones {
+        margin-bottom: 9px;
+        font-size: var(--titulo-tlf);
+        line-height: 30px;
+    }
+
+    .col-promociones {
+        -ms-flex: 0 0 91%;
+            flex: 0 0 91%;
+        max-width: 100%;
+    }
+
+    .head-back-promo,
+    .body-back-promo {
+        padding: 0 29px;
+    }
+
+    .titu-promo-front {
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
+    }
+
+    .logo-promo-front {
+        width: 69%;
+    }
+
+    .titu-body-front {
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
+    }
+
+    .subtitu-body-front {
+        font-size: var(--subtitu-TLF);
+    }
+
+    .contain-back-promo {
+        display: grid;
+        align-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding-top: 24px;
+        background: url("../img/4-promociones/textura-pq.webp") 0 0 no-repeat;
+        background-position: center;
+    }
+
+    .titu-promo-back {
+        margin-bottom: 9px;
+        font-size: var(--titulo-tlf);
+        line-height: 24px;
+    }
+
+    .txt-descrip-promo {
+        font-size: var(--parrafo);
+        line-height: 17px;
+    }
+    .col-back-promo1,
+    .col-back-promo2 {
+        border-right: 0;
+        border-bottom: 1px dashed var(--blanco);
+    }
+
+    .footer-back-promo {
+        padding: 0;
+    }
+
+    /*=====================================
+        F.  Proyectos
+    =======================================*/
+    /*-------------------------------------
+            24. Hero proyectos
+    --------------------------------------*/
+    .contain-hero-proyectos {
+        padding: 40px 19px 47px;
+    }
+
+    .txt-hero-proyectos {
+        font-size: var(--subtitu-tlf);
+        letter-spacing: 5px;
+    }
+
+    .titu-hero-proyectos {
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
+    }
+
+    /*-------------------------------------
+            25. Contenido proyectos
+    --------------------------------------*/
+    .row-proyectos {
+        --bs-gutter-y: 0;
+    }
+
+    .vid-proyec {
+        width: 350px !important;
+        height: 197px !important;
+    }
+
 
     /*=====================================
         Footer

@@ -34,7 +34,7 @@ F.  Proyectos
 Footer
 ===========================================*/
 /*=====================================
-  1.  CSS General
+    1.  CSS General
 =======================================*/
 :root {
     --verde-osc: #5e8b14;
@@ -573,7 +573,7 @@ Footer
 }
 
 /*=====================================
-  2.  Header
+    2.  Header
 =======================================*/
 .navbar-nav {
     align-items: center;
@@ -616,10 +616,10 @@ Footer
 }
 
 /*=====================================
-  A.  Home
+    A.  Home
 =======================================*/
 /*-------------------------------------
-    3.  Hero home
+        3.  Hero home
 --------------------------------------*/
 .col-header-home1 {
     padding-top: 48px !important;
@@ -689,7 +689,7 @@ Footer
 }
 
 /*-------------------------------------
-    4.  Propiedades
+        4.  Propiedades
 --------------------------------------*/
 .cuadro-somos {
     margin-top: -62px;
@@ -798,7 +798,7 @@ Footer
 }
 
 /*-------------------------------------
-    5.  Fraccionamiento destacado
+        5.  Fraccionamiento destacado
 --------------------------------------*/
 .about-img img {
     position: relative;
@@ -855,7 +855,7 @@ Footer
 }
 
 /*-------------------------------------
-    6.  Lista propiedades
+        6.  Lista propiedades
 --------------------------------------*/
 .titu-propies {
     text-align: center;
@@ -953,7 +953,7 @@ Footer
 }
 
 /*-------------------------------------
-    7.  Testimonios
+        7.  Testimonios
 --------------------------------------*/
 .titu-testimo {
     margin-top: -56px;
@@ -1037,10 +1037,10 @@ Footer
 }
 
 /*=====================================
-  B.  Portafolio
+    B.  Portafolio
 =======================================*/
 /*-------------------------------------
-    14. Hero Portafo
+        14. Hero Portafo
 --------------------------------------*/
 .titu-hero-protafo {
     font-family: 'Mont';
@@ -1055,7 +1055,7 @@ Footer
 }
 
 /*-------------------------------------
-    15. Filtro Portafo
+        15. Filtro Portafo
 --------------------------------------*/
 .wrapper-geolocaliza {
     display: flex;
@@ -1284,8 +1284,9 @@ Footer
 .btn-fraccion.active .infor-fraccion p:nth-child(1) {
     border-right: 1px dashed var(--blanco) !important;
 }
+
 /*-------------------------------------
-    16. Agendar Portafo
+        16. Agendar Portafo
 --------------------------------------*/
 .titu-agenda {
     font-size: var(--titulo);
@@ -1324,10 +1325,10 @@ Footer
 }
 
 /*=====================================
-  C.  Servicios
+    C.  Servicios
 =======================================*/
 /*-------------------------------------
-    17. Hero Servicios
+        17. Hero Servicios
 --------------------------------------*/
 .container-hero-servis {
     padding: 0;
@@ -1367,7 +1368,7 @@ Footer
 }
 
 /*-------------------------------------
-    18. Contenido servicios
+        18. Contenido servicios
 --------------------------------------*/
 .col-somos:nth-child(2) {
     padding-left: 32px;
@@ -1405,7 +1406,7 @@ Footer
 }
 
 /*-------------------------------------
-    19. Credenciales
+        19. Credenciales
 --------------------------------------*/
 .wrapper-creden {
     padding: 0;
@@ -1451,7 +1452,7 @@ Footer
 }
 
 /*-------------------------------------
-    20. Misión/Visión
+        20. Misión/Visión
 --------------------------------------*/
 .wrapper-mis-vis {
     padding-left: 0 !important;
@@ -1492,7 +1493,7 @@ Footer
 }
 
 /*-------------------------------------
-    21. Valores
+        21. Valores
 --------------------------------------*/
 .wrapper-valores {
     padding: 0 !important;
@@ -1542,7 +1543,7 @@ Footer
     font-size: var(--subtitu);
     font-weight: 700;
     line-height: 42px;
-    color: var(--verde-cla)
+    color: var(--verde-cla);
 }
 
 .txt-item-valores {
@@ -1554,16 +1555,13 @@ Footer
 }
 
 /*=====================================
-  D.  Promociones
+    D.  Promociones
 =======================================*/
 /*-------------------------------------
-    22. Contenido promociones
+        22. Contenido promociones
 --------------------------------------*/
 .container-promos {
     max-width: 100vw;
-}
-.col-promociones {
-    padding: 0 !important;
 }
 
 .row-promociones {
@@ -1575,6 +1573,7 @@ Footer
         flex: 0 0 47%;
     max-width: 100%;
     margin: 10px;
+    padding: 0 !important;
 }
 
 .titus-promociones {
@@ -1605,7 +1604,6 @@ Footer
     padding-top: 67px;
     background: url("../img/4-promociones/textura-pq.webp") 0 0 no-repeat;
     background-position: center;
-
 }
 
 .head-front-promo {
@@ -1748,10 +1746,10 @@ Footer
 }
 
 /*=====================================
-  E.  Contacto
+    E.  Contacto
 =======================================*/
 /*-------------------------------------
-    23. Contenido contacto
+        23. Contenido contacto
 --------------------------------------*/
 .icono-contact i {
     color: var(--verde-cla);
@@ -1777,10 +1775,10 @@ Footer
 }
 
 /*=====================================
-  F.  Proyectos
+    F.  Proyectos
 =======================================*/
 /*-------------------------------------
-    24. Hero proyectos
+        24. Hero proyectos
 --------------------------------------*/
 .container-hero-servis {
     padding: 0;
@@ -1817,7 +1815,7 @@ Footer
 }
 
 /*-------------------------------------
-    25. Contenido proyectos
+        25. Contenido proyectos
 --------------------------------------*/
 .proyectos-carousel .owl-dots .owl-dot span {
     width: 18px;
@@ -1906,7 +1904,7 @@ Footer
 }
 
 /*=====================================
-  Footer
+    Footer
 =======================================*/
 .bg-footer {
     background-color: var(--azul-osc);
