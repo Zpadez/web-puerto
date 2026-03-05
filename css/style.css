@@ -564,6 +564,14 @@ Footer
     background-color: var(--azul-osc);
 }
 
+.tlf {
+    display: none;
+}
+
+.desk {
+    display: block;
+}
+
 /*=====================================
   2.  Header
 =======================================*/
@@ -1897,11 +1905,6 @@ Footer
     background-color: var(--azul-osc);
 }
 
-
-
-
-
-
 /*=====================================
   Footer
 =======================================*/
@@ -2021,6 +2024,10 @@ Footer
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.footer .form-control::placeholder {
+    color: var(--blanco);
 }
 
 

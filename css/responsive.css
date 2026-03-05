@@ -37,7 +37,8 @@ Footer
         width: 100px;
     }
 
-    .underline-dots {
+    .underline-dots,
+    .underline-dots-1 {
         width: 114px;
     }
 
@@ -52,6 +53,13 @@ Footer
 
     .btn-colapse {
         right: 18px;
+    }
+
+    .tlf {
+        display: block;
+    }
+    .desk {
+        display: none;
     }
 
     /*=====================================
@@ -208,32 +216,101 @@ Footer
         B.  Portafolio
     =======================================*/
     /*-------------------------------------
+            14. Hero Portafo
+    --------------------------------------*/
+    .titu-hero-protafo {
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
+    }
+
+    /*-------------------------------------
             15. Filtro Portafo
     --------------------------------------*/
+    .vid-propie {
+        width: 325px !important;
+        height: 183px !important;
+    }
+
     .col-geolocaliza {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%;
     }
+
     .col-geolocaliza1 {
-        height: 380px;
+        height: 228px;
     }
+
     .col-geolocaliza2 {
         overflow-y: hidden;
         overflow-x: scroll;
-        height: 402px;
+        height: 483px;
         border: 1px solid red;
     }
+
     .btn-fraccion {
-        -ms-flex: 0 0 42%;
-            flex: 0 0 42%;
+        -ms-flex: 0 0 88%;
+            flex: 0 0 88%;
         max-width: 100%;
         margin: 8px;
     }
+
     .list-fraccion {
         flex-wrap: nowrap;
         justify-content: flex-start;
-        padding-left: 12%;
+        padding-left: 3%;
+    }
+
+    .btn-fraccion .property-item h5 {
+        font-family: 'Mont';
+        font-size: 12px;
+        color: var(--verde-osc) !important;
+    }
+
+    .nom-direcc  {
+        font-size: var(--parrafo);
+    }
+
+    .direcc-protafo {
+        display: block;
+        width: 88%;
+        margin-bottom: 9px;
+        font-size: 13px;
+    }
+
+    /*=====================================
+        Footer
+    =======================================*/
+    .container-foot-top {
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+    }
+
+    .row-footer {
+        display: flex;
+        justify-content: center;
+        --bs-gutter-y: 8px !important;
+    }
+
+    .col-foot-1,
+    .col-foot-2 {
+        -ms-flex: 0 0 47% !important;
+            flex: 0 0 47% !important;
+        max-width: 100% !important;
+    }
+    .col-foot-3,
+    .col-foot-4 {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .btn-link {
+        margin-bottom: 0;
+    }
+    .firma-foot {
+        font-size: 13px;
+        text-align: center;
     }
 }
 
