@@ -535,8 +535,48 @@ Footer
     }
 
     .vid-proyec {
-        width: 350px !important;
-        height: 197px !important;
+        width: 325px !important;
+        height: 183px !important;
+    }
+
+    .titu-proye1 {
+        margin-top: 14px;
+        margin-bottom: 10px !important;
+        font-size: var(--parrafo-tlf);
+        letter-spacing: 7px;
+    }
+
+    .list-ventajas-proyec-2 {
+        margin-top: 33px;
+    }
+
+    .titu-proye2 {
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
+    }
+
+    .txt-proyec {
+        margin-bottom: 12px !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .titus-item-proyec {
+        margin-bottom: 0 !important;
+        font-size: var(--parrafo);
+        line-height: 17px;
+    }
+
+    .contain-btns-proyec {
+        display: flex;
+        justify-content: center;
+        margin-top: 21px;
+    }
+
+    .btn-proyec {
+        width: 141px;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
     }
 
 

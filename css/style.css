@@ -1854,7 +1854,7 @@ Footer
 }
 
 .txt-proyec {
-    margin-bottom: 7px;
+    margin-bottom: 7px !important;
     font-size: var(--parrafo);
     line-height: 18px;
     color: var(--azul-med);
