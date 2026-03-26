@@ -1869,7 +1869,8 @@ Footer
 .item-ventajas-proyec {
     color: var(--verde-osc);
 }
-.list-ventajas-proyec-2 {
+.list-ventajas-proyec-2,
+.list-ventajas-proyec-3 {
     margin-top: 60px;
 }
 .titus-item-proyec {
