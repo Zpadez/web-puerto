@@ -1833,6 +1833,20 @@ Footer
     text-align: left;
     text-transform: uppercase;
 }
+.titu-proye-carru {
+    font-family: 'Mont';
+    font-size: var(--titulo);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 9px;
+    color: var(--azul-osc);
+}
+
+.titu-proye-carru2 {
+    margin-top: 37px;
+}
 .titu-proye1 {
     font-family: 'Mont';
     font-size: var(--parrafo);

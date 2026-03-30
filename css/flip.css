@@ -45,8 +45,18 @@
 	left: 0;
 }
 
-.front {
+.front-1 {
 	background: url("../img/4-promociones/promo-bg-0.webp") 0 0 no-repeat;
+    background-position: center;
+	z-index: 2;
+}
+.front-2 {
+	background: url("../img/4-promociones/promo-bg-1.webp") 0 0 no-repeat;
+    background-position: center;
+	z-index: 2;
+}
+.front-3 {
+	background: url("../img/4-promociones/promo-bg-2.webp") 0 0 no-repeat;
     background-position: center;
 	z-index: 2;
 }
