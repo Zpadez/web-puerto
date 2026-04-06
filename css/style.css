@@ -1362,7 +1362,7 @@ Footer
     text-align: center;
     line-height: 50px;
     letter-spacing: 7px;
-    color: var(--azul-osc);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .txt-hero-somos span {
@@ -1376,7 +1376,7 @@ Footer
     font-weight: 500;
     line-height: 24px;
     text-align: center;
-    color: var(--azul-osc);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /*-------------------------------------
