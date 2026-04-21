@@ -980,7 +980,9 @@ Footer
 .item-testimo {
     background-color: #eaf3dc;
 }
+
 .item-testimo p {
+    height: 161px;
     font-family: 'Mont';
     font-size: var(--parrafo);
     font-weight: 400;
@@ -1094,8 +1096,8 @@ Footer
 }
 
 .img-terres {
-    width: 540px;
-    height: 304px;
+    width: 100%;
+    height: 100%;
     border: 3px dashed var(--verde-cla) !important;
     border-radius: 21px;
     overflow: hidden;
