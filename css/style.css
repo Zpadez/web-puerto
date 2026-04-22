@@ -31,6 +31,9 @@ E.  Contacto
 F.  Proyectos
   24. Hero proyectos
   25. Contenido proyectos
+G.  Tarjetas
+  26. Tarjeta empresa
+  27. Tarjeta personal
 Footer
 ===========================================*/
 /*=====================================
@@ -38,6 +41,7 @@ Footer
 =======================================*/
 :root {
     --verde-osc: #5e8b14;
+    --verde-osc2: #182101;
     --verde-cla: #778f55;
     --azul-osc: #0b2635;
     --azul-med: #294d5a;
@@ -208,6 +212,16 @@ Footer
     src: url('../fonts/winlove/WinlovePersonalUse.woff2') format('woff2'),
         url('../fonts/winlove/WinlovePersonalUse.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*cherolina*/
+@font-face {
+    font-family: 'Cherolina';
+    src: url('../fonts/cherolina/Cherolina.woff2') format('woff2'),
+        url('../fonts/cherolina/Cherolina.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -444,6 +458,9 @@ Footer
 
 .text-acento {
     color: var(--verde-osc);
+}
+.txt-acent-ng {
+    font-weight: 700 !important;
 }
 
 .btn-busca {
@@ -1830,7 +1847,7 @@ Footer
 
 /*-------------------------------------
         25. Contenido proyectos
---------------------------------------*/ 
+--------------------------------------*/
 .proyectos-carousel .owl-dots .owl-dot span {
     width: 18px;
     height: 18px;
@@ -1930,6 +1947,147 @@ Footer
     color: var(--blanco);
     border: 3px solid var(--azul-osc);
     background-color: var(--azul-osc);
+}
+
+/*=====================================
+    G.  Tarjetas
+=======================================*/
+/*-------------------------------------
+        26. Tarjeta empresa
+--------------------------------------*/
+.container-tarjeta {
+    padding: 0;
+    background: url("../img/6-tarjetas/tarjetas-bg.webp") center center no-repeat;
+    background-size: cover;
+}
+
+.img-head-tarjeta {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.row-info-tarjeta {
+    padding: 0 !important;
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
+}
+.col-info-tarjeta {
+    padding: 14px !important;
+    background: #56682B;
+    background: -webkit-linear-gradient(180deg, rgba(86, 104, 43, 1) 0%, rgba(160, 178, 119, 1) 89%);
+       background: -moz-linear-gradient(180deg, rgba(86, 104, 43, 1) 0%, rgba(160, 178, 119, 1) 89%);
+            background: linear-gradient(180deg, rgba(86, 104, 43, 1) 0%, rgba(160, 178, 119, 1) 89%);
+    -webkit-box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.54);
+       -moz-box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.54);
+            box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.54);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#56682B", endColorstr="#A0B277", GradientType=0);
+}
+.col-info-tarjeta1 {
+    margin-right: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.col-info-tarjeta2 {
+    margin-left: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.txt-info-tarjeta i {
+    color: #35490a !important;
+}
+
+.txt-info-tarjeta {
+    display: block;
+    margin: auto !important;
+    font-family: 'Mont';
+    font-size: var(--parrafo);
+    text-align: center !important;
+    color: var(--verde-osc2);
+}
+.txt-info-tarjeta:hover {
+    color: var(--verde-osc2);
+}
+
+.cont-rrss-tarjetas {
+    margin-top: 24px;
+    padding: 20px 0 !important;
+    background: #56682B;
+    background: -webkit-linear-gradient(180deg, rgba(86, 104, 43, 0.74) 0%, rgba(160, 178, 119, 0.74) 89%);
+       background: -moz-linear-gradient(180deg, rgba(86, 104, 43, 0.74) 0%, rgba(160, 178, 119, 0.74) 89%);
+            background: linear-gradient(180deg, rgba(86, 104, 43, 0.74) 0%, rgba(160, 178, 119, 0.74) 89%);
+    border-radius: 15px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#56682B", endColorstr="#A0B277", GradientType=0);
+}
+
+.rrss-tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-tarje, .btn-web {
+    width: 89%;
+    padding: 8px;
+    font-family: 'Mont';
+    font-size: var(--parrafo-tlf);
+    text-align: left !important;
+    font-weight: 600 !important;
+    border-radius: 6px;
+}
+.redes-tarje i {
+    color: var(--blanco) !important;
+}
+.redes-tarje {
+    color: var(--azul-osc);
+    border: 1px solid var(--blanco);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.redes-tarje:nth-child(2) {
+    margin: 8px auto !important;
+}
+
+.btn-web {
+    margin-top: 8px !important;
+    color: var(--blanco);
+    background: var(--azul-osc);
+    -webkit-box-shadow: 7px 3px 9px -2px rgba(0,0,0,0.48);
+       -moz-box-shadow: 7px 3px 9px -2px rgba(0,0,0,0.48);
+            box-shadow: 7px 3px 9px -2px rgba(0,0,0,0.48);
+}
+
+.contain-firma-tarjeta {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.txt-firma-tarjeta {
+    font-family: 'Mont';
+    font-size: var(--parrafo-tlf);
+    font-weight: 600 !important;
+    line-height: 17px;
+    color: var(--blanco);
+}
+
+.btn-compartir {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    width: 13%;
+    border: transparent;
+    background: transparent;
+}
+
+.img-compartir {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
 }
 
 /*=====================================

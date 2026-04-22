@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Inmobiliaria Puerto Escondido</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/0-header/logo-favicon.webp" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-acento" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Tarjeta Start -->
+        <div class="container-fluid py-5 container-tarjeta">
+            <div class="container">
+                <div class="contain-tajerta">
+                    <div class="head-tarjeta">
+                        <img src="img/logo-header-tarjeta-empresa.webp" alt="" class="img-head-tarjeta">
+                    </div>
+
+                    <div class="cont-info-tarjeta">
+                        <div class="row align-items-center justify-content-center row-info-tarjeta">
+                            <div class="col-5 col-info-tarjeta1 col-info-tarjeta">
+                                <a href="#" class="mb-0 txt-info-tarjeta1 txt-info-tarjeta">
+                                    <i class="fa-brands fa-whatsapp"></i> <span class="txt-acent-ng">Asesor</span> 01
+                                </a>
+                            </div>
+
+                            <div class="col-5 col-info-tarjeta2 col-info-tarjeta">
+                                <a href="#" class="mb-0 txt-info-tarjeta2 txt-info-tarjeta">
+                                    <i class="fa-brands fa-whatsapp"></i> <span class="txt-acent-ng">Asesor</span> 02
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cont-rrss-tarjetas">
+                        <div class="rrss-tarjetas">
+                            <a class="redes-tarje1 redes-tarje">
+                                <i class="fa-brands fa-facebook"></i> Inmobiliara Puerto Escondido
+                            </a>
+
+                            <a class="redes-tarje2 redes-tarje">
+                                <i class="fa-brands fa-instagram"></i> @puertoescondidoinmobiliaria
+                            </a>
+
+                            <a class="redes-tarje3 redes-tarje">
+                                <i class="fa-solid fa-location-dot"></i> Dirección
+                            </a>
+
+                            <a class="btn-web">
+                                <i class="fa-solid fa-globe"></i> www.inmobiliariapuertoescondido.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contain-firma-tarjeta">
+                        <p class="text-center mb-0 txt-firma-tarjeta">Tu terreno, tu futuro:<br>El momento de invertir es hoy.</p>
+
+                        <button id="compartirBtn" class="btn-compartir">
+                            <img src="img/6-tarjetas/compartir.webp" alt="compartir" class="img-compartir">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta End -->
+    </div>
+
+    <script>
+    document.getElementById('compartirBtn').addEventListener('click', function() {
+        if (navigator.share) {
+            // Dispositivos móviles (Android, iOS)
+            navigator.share({
+                title: document.title,
+                text: 'Mira esta página interesante',
+                url: window.location.href
+            })
+            .catch(error => console.log('Error al compartir:', error));
+        } else {
+            // Fallback para escritorio
+            alert('Copia esta URL: ' + window.location.href);
+        }
+    });
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
