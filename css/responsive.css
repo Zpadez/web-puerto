@@ -600,6 +600,13 @@ Footer
         height: 100vh;
     }
 
+    /*-------------------------------------
+            26. Tarjeta empresa
+    --------------------------------------*/
+    .txt-nomb-tarjeta1 {
+        font-family: 'Cherolina' !important;
+    }
+
 
     /*=====================================
         Footer

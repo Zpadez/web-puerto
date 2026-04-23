@@ -1432,6 +1432,7 @@ Footer
 .txt-somos {
     width: 394px;
     font-size: var(--parrafo);
+    text-align: justify;
     line-height: 18px;
     color: var(--azul-med);
 }
@@ -1901,6 +1902,7 @@ Footer
 .txt-proyec {
     margin-bottom: 7px !important;
     font-size: var(--parrafo);
+    text-align: justify;
     line-height: 18px;
     color: var(--azul-med);
 }
@@ -2045,6 +2047,10 @@ Footer
     color: var(--azul-osc);
     border: 1px solid var(--blanco);
     background: rgba(255, 255, 255, 0.2);
+    transition: ease-in-out 0.3s;
+}
+.redes-tarje:hover {
+    color: var(--blanco) !important;
 }
 
 .redes-tarje:nth-child(2) {
@@ -2104,7 +2110,7 @@ Footer
 
 .txt-nomb-tarjeta1 {
     margin-bottom: -19px !important;
-    font-family: 'Cherolina';
+    font-family: 'Cherolina' !important;
     font-size: 56px;
 }
 
