@@ -1956,6 +1956,7 @@ Footer
         26. Tarjeta empresa
 --------------------------------------*/
 .container-tarjeta {
+    height: 100vh;
     padding: 0;
     background: url("../img/6-tarjetas/tarjetas-bg.webp") center center no-repeat;
     background-size: cover;
@@ -2013,7 +2014,7 @@ Footer
 
 .cont-rrss-tarjetas {
     margin-top: 24px;
-    padding: 20px 0 !important;
+    padding: 37px 0 !important;
     background: #56682B;
     background: -webkit-linear-gradient(180deg, rgba(86, 104, 43, 0.74) 0%, rgba(160, 178, 119, 0.74) 89%);
        background: -moz-linear-gradient(180deg, rgba(86, 104, 43, 0.74) 0%, rgba(160, 178, 119, 0.74) 89%);
@@ -2050,6 +2051,10 @@ Footer
     margin: 8px auto !important;
 }
 
+.redes-tarje:nth-child(4) {
+    margin-top: 8px !important;
+}
+
 .btn-web {
     margin-top: 8px !important;
     color: var(--blanco);
@@ -2077,7 +2082,7 @@ Footer
 .btn-compartir {
     display: block;
     margin: auto;
-    margin-top: 8px;
+    margin-top: 9px;
     width: 13%;
     border: transparent;
     background: transparent;
@@ -2088,6 +2093,28 @@ Footer
     margin: auto;
     width: 100%;
     height: auto;
+}
+
+/*-------------------------------------
+        26. Tarjeta empresa
+--------------------------------------*/
+.cont-info-tarjeta-perso {
+    margin-bottom: 16px;
+}
+
+.txt-nomb-tarjeta1 {
+    margin-bottom: -19px !important;
+    font-family: 'Cherolina';
+    font-size: 56px;
+}
+
+.txt-nomb-tarjeta2 {
+    margin-bottom: 0 !important;
+    font-family: 'Mont';
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 /*=====================================
