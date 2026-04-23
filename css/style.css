@@ -1956,7 +1956,7 @@ Footer
         26. Tarjeta empresa
 --------------------------------------*/
 .container-tarjeta {
-    height: 100vh;
+    height: auto;
     padding: 0;
     background: url("../img/6-tarjetas/tarjetas-bg.webp") center center no-repeat;
     background-size: cover;
