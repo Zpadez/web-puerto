@@ -224,6 +224,12 @@ Footer
         line-height: 15px;
     }
 
+    .item-testimo p {
+        height: fit-content;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
     /*=====================================
         B.  Portafolio
     =======================================*/
@@ -250,7 +256,7 @@ Footer
     }
 
     .col-geolocaliza1 {
-        height: 228px;
+        height: 218px;
     }
 
     .col-geolocaliza2 {
@@ -263,7 +269,11 @@ Footer
         -ms-flex: 0 0 88%;
             flex: 0 0 88%;
         max-width: 100%;
-        margin: 8px;
+        margin: 8px 16px;
+    }
+
+    .propies-flex {
+        padding: 0 10px;
     }
 
     .list-fraccion {
@@ -360,32 +370,33 @@ Footer
     --------------------------------------*/
     .row-creden {
         --bs-gutter-x: 0;
+        justify-content: normal !important;
     }
 
     .col-creden {
-        -ms-flex: 0 0 72%;
-            flex: 0 0 72%;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
         max-width: 100%;
-        margin: 0 12px 15px;
+        margin: 0 6px 15px;
     }
 
     .contain-creden {
         margin: auto !important;
-        width: 221px;
-        height: 221px;
+        width: 161px;
+        height: 161px;
     }
 
     .num-creden {
         margin: 0;
-        font-size: var(--subtitu-tlf);
+        font-size: 17px;
         font-weight: 700;
         text-align: center;
         color: var(--blanco);
     }
 
     .txt-creden {
-        font-size: var(--subtitu-tlf);
-        line-height: 22px;
+        font-size: 13px;
+        line-height: 15px;
     }
 
     /*-------------------------------------
