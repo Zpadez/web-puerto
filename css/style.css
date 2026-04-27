@@ -713,7 +713,7 @@ Footer
     margin-bottom: 20px;
 }
 .titu-propie {
-    margin-bottom: 0 !important;
+    margin-bottom: 17px !important;
     font-family: 'Mont';
     font-size: var(--titulo);
     color: var(--azul-osc);
@@ -2102,10 +2102,20 @@ Footer
 }
 
 /*-------------------------------------
-        26. Tarjeta empresa
+        27. Tarjeta personal
 --------------------------------------*/
 .cont-info-tarjeta-perso {
+    display: block;
+    width: 67%;
+    margin: auto;
     margin-bottom: 16px;
+}
+
+.img-firma {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 .txt-nomb-tarjeta1 {
