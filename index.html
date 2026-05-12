@@ -1,1072 +1,1960 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Inmobiliaria Puerto Escondido</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/0-header/logo-favicon.webp" rel="icon">
+    <link href="img/0-header/logo-favicon.webp" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/49286760f0.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-acento" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-acento"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+      <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+          <a
+            href="index.html"
+            class="navbar-brand d-flex align-items-center text-center"
+          >
+            <div class="p-2 me-2">
+              <img
+                class="logo-header"
+                src="img/0-header/logo-header.webp"
+                alt="Icon"
+              />
             </div>
-        </div>
-        <!-- Spinner End -->
+          </a>
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="p-2 me-2">
-                        <img class="logo-header" src="img/0-header/logo-header.webp" alt="Icon">
-                    </div>
-                </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="nav-item nav-link active">Inicio</a>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Propiedades</a
+                >
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Propiedades</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="fraccionamientos.html" class="dropdown-item"
+                    >Fraccionamientos</a
+                  >
 
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="fraccionamientos.html" class="dropdown-item">Fraccionamientos</a>
-
-                                <a href="terrenos.html" class="dropdown-item">Terrenos</a>
-                            </div>
-                        </div>
-
-                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
-
-                        <a href="promociones.html" class="nav-item nav-link">Promociones</a>
-
-                        <a href="contacto.html" class="btn-head btn px-3 d-lg-flex">Contáctanos</a>
-                    </div>
+                  <a href="terrenos.html" class="dropdown-item">Terrenos</a>
                 </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+              </div>
 
-        <!-- Header Start -->
-        <div class="container-hero-home container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-header-home col-header-home1 col-md-6 p-5 mt-lg-5">
-                    <h1 class="titu-hero display-5 animated fadeIn mb-4">
-                        <span class="txt-acento">Invierte</span>
-                        <span class="txt-acento-ub">desde hoy,</span><br>
-                        <span class="txt-acento-ital">construye cuando quieras</span>
-                    </h1>
+              <a href="servicios.html" class="nav-item nav-link">Servicios</a>
 
-                    <div class="underline-ver-1"></div>
+              <a href="promociones.html" class="nav-item nav-link"
+                >Promociones</a
+              >
 
-                    <p class="animated fadeIn mb-4 pb-2 txt-hero"><b>La construcción de un gran futuro,</b> ya sea el hogar de tus sueños o tu independencia económica,<b> empieza con una sola decisión:</b> elegir el terreno adecuado para sentar las bases.</p>
-
-                    <a href="fraccionamientos.html" class="btn btn-hero px-5 me-3 animated fadeIn">Ver Lotes</a>
-                </div>
-
-                <div class="col-header-home col-header-home2 col-md-6 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid img-carrus-hero" src="img/1-home/carru-hero-01.webp" alt="">
-                        </div>
-
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid img-carrus-hero" src="img/1-home/carru-hero-02.webp" alt="">
-                        </div>
-
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid img-carrus-hero" src="img/1-home/carru-hero-03.webp" alt="">
-                        </div>
-                    </div>
-                </div>
+              <a href="contacto.html" class="btn-head btn px-3 d-lg-flex"
+                >Contáctanos</a
+              >
             </div>
-        </div>
-        <!-- Header End -->
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
 
-        <!-- Search Start -->
-        <div class="container-fluid bg-verde-claro mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
-            <div class="container">
-                <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Una palabra clave">
-                            </div>
+      <!-- Header Start -->
+      <div class="container-hero-home container-fluid header bg-white p-0">
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+          <div class="col-header-home col-header-home1 col-md-6 p-5 mt-lg-5">
+            <h1 class="titu-hero display-5 animated fadeIn mb-4">
+              <span class="txt-acento">Invierte</span>
+              <span class="txt-acento-ub">desde hoy,</span><br />
+              <span class="txt-acento-ital">construye cuando quieras</span>
+            </h1>
 
-                            <div class="col-md-4">
-                                <select class="form-select form-busca border-0 py-3">
-                                    <option selected>Tipo de lotes</option>
+            <div class="underline-ver-1"></div>
 
-                                    <option value="1">Lotes planos</option>
+            <p class="animated fadeIn mb-4 pb-2 txt-hero">
+              <b>La construcción de un gran futuro,</b> ya sea el hogar de tus
+              sueños o tu independencia económica,<b>
+                empieza con una sola decisión:</b
+              >
+              elegir el terreno adecuado para sentar las bases.
+            </p>
 
-                                    <option value="2">Lotes sobre calle principal</option>
-                                    
-                                    <option value="3">Lotes con servicios</option>
-                                </select>
-                            </div>
+            <a
+              href="fraccionamientos.html"
+              class="btn btn-hero px-5 me-3 animated fadeIn"
+              >Ver Lotes</a
+            >
+          </div>
 
-                            <div class="col-md-4">
-                                <select class="form-select form-busca border-0 py-3">
-                                    <option selected>Locación</option>
+          <div
+            class="col-header-home col-header-home2 col-md-6 animated fadeIn"
+          >
+            <div class="owl-carousel header-carousel">
+              <div class="owl-carousel-item">
+                <img
+                  class="img-fluid img-carrus-hero"
+                  src="img/1-home/carru-hero-01.webp"
+                  alt=""
+                />
+              </div>
 
-                                    <option value="1">Acali</option>
+              <div class="owl-carousel-item">
+                <img
+                  class="img-fluid img-carrus-hero"
+                  src="img/1-home/carru-hero-02.webp"
+                  alt=""
+                />
+              </div>
 
-                                    <option value="2">Las Parotas</option>
-
-                                    <option value="3">Tabachín</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <button class="btn btn-busca w-100 py-3">Buscar</button>
-                    </div>
-                </div>
+              <div class="owl-carousel-item">
+                <img
+                  class="img-fluid img-carrus-hero"
+                  src="img/1-home/carru-hero-03.webp"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Search End -->
+      </div>
+      <!-- Header End -->
 
-        <!-- Category Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="text-center cuadro-somos mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3 titu-propie">Puerto Escondido,<br><span class="txt-acento"><b>OAXACA</b></span></h1>
-
-                    <h3 class="subtitu-propie">— invierte en este destino turístico —</h3>
-
-                    <p class="txt-propie">Una vez que pises Puerto Escondido, tu corazón quedará enganchado con la belleza de sus playas, su atmósfera rústica y relajada.<br><br>Definitivamente no te arrepentirás de invertir en un pedacito de esta joya del pacífico mexicano y disfrutar de todas las virtudes que este lugar mágico tiene para ti.</p>
-
-                    <p class="txt-propie1">¡Te esperamos!</p>
+      <!-- Search Start -->
+      <div
+        class="container-fluid bg-verde-claro mb-5 wow fadeIn"
+        data-wow-delay="0.1s"
+        style="padding: 35px"
+      >
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-md-10">
+              <div class="row g-2">
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="form-control border-0 py-3"
+                    placeholder="Una palabra clave"
+                  />
                 </div>
 
-                <div class="row g-4">
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-01.webp" alt="Icon">
-                                </div>
+                <div class="col-md-4">
+                  <select class="form-select form-busca border-0 py-3">
+                    <option selected>Tipo de lotes</option>
 
-                                <h6>HERMOSAS PLAYAS</h6>
-                            </div>
-                        </div>
-                    </div>
+                    <option value="1">Lotes planos</option>
 
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-02.webp" alt="Icon">
-                                </div>
+                    <option value="2">Lotes sobre calle principal</option>
 
-                                <h6>GASTRONOMÍA</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-03.webp" alt="Icon">
-                                </div>
-
-                                <h6>ECO-TURISMO</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-04.webp" alt="Icon">
-                                </div>
-
-                                <h6>VIDA SALVAJE</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-05.webp" alt="Icon">
-                                </div>
-
-                                <h6>FOLCLORE</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="cat-item d-block text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon-invert icon mb-3">
-                                    <img class="img-fluid" src="img/1-home/img-invertir-06.webp" alt="Icon">
-                                </div>
-
-                                <h6>AVENTURA</h6>
-                            </div>
-                        </div>
-                    </div>
+                    <option value="3">Lotes con servicios</option>
+                  </select>
                 </div>
 
-                <a class="btn btn-invert py-3 px-5 mt-3" href="servicios.html">Nosotros</a>
-            </div>
-        </div>
-        <!-- Category End -->
+                <div class="col-md-4">
+                  <select class="form-select form-busca border-0 py-3">
+                    <option selected>Locación</option>
 
-        <!-- About Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-somos-home col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/1-home/fraccion-home.webp">
-                        </div>
-                    </div>
+                    <option value="1">Acali</option>
 
-                    <div class="col-somos-home col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4 titu-noso">Oportunidad de <span class="txt-acento">inversión Acali</span><br>- Playa Palmarito</h1>
+                    <option value="2">Las Parotas</option>
 
-                        <p class="mb-4 txt-fraccio-destaca">Imagina despertar cada mañana con el sonido del mar y la brisa acariciando tu rostro. <span class="txt-acento-b txt-acento">Invertir en el fraccionamiento Acali, en Playa Palmarito,</span> no es solo adquirir un terreno, es comprar la tranquilidad y la belleza de un estilo de vida que <span class="txt-acento-b txt-acento">siempre soñaste.</span></p>
-
-                        <p class="punto-fraccio-destaca"><i class="fa fa-check check-noso me-3"></i>Acceso directo y privado.</p>
-
-                        <p class="punto-fraccio-destaca"><i class="fa fa-check check-noso me-3"></i>Localizado en Playa Palmarito.</p>
-
-                        <p class="punto-fraccio-destaca"><i class="fa fa-check check-noso me-3"></i>Servicios de agua y luz listos para instalar.</p>
-
-                        <a class="btn btn-somos px-5 mt-3" href="fraccionamientos.html">Ver Lotes</a>
-                    </div>
+                    <option value="3">Tabachín</option>
+                  </select>
                 </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-        <!-- Property List Start -->
-        <div class="container-propied-home container-fluid py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-12">
-                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h3 class="mb-3 titu-propies titu-propies1">nuestras</h3>
-
-                            <h1 class="mb-3 titu-propies titu-propies2">Propiedades</h1>
-
-                            <div class="underline-dots">
-                                <span class="circul circul1"></span>
-                                <span class="circul circul2"></span>
-                                <span class="circul circul3"></span>
-                                <span class="circul circul4"></span>
-                                <span class="circul circul5"></span>
-                            </div>
-
-                            <p class="txt-propies"><span class="txt-acento">Cada fraccionamiento tiene una historia</span> esperando ser escrita. Te invitamos a descubrir los espacios que hemos seleccionado especialmente para ti, donde tus sueños y esfuerzos encontrarán el <span class="txt-acento">lugar perfecto para florecer.</span></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 text-center wow slideInRight" data-wow-delay="0.1s">
-                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
-                            <li class="nav-item me-2">
-                                <a class="btn btn-list-propies active" data-bs-toggle="pill" href="#tab-1">Todos</a>
-                            </li>
-                            
-                            <li class="nav-item me-2">
-                                <a class="btn btn-list-propies" data-bs-toggle="pill" href="#tab-2">Fraccionamientos</a>
-                            </li>
-                            
-                            <li class="nav-item me-0">
-                                <a class="btn btn-list-propies" data-bs-toggle="pill" href="#tab-3">Terrenos</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="tab-content">
-                    <div id="tab-1" class="tab-propies tab-pane fade show p-0 active">
-                        <div class="row g-4">
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-01.webp" alt=""></a>
-
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$2.500 — $3.000 m<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Acali residencial</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> Desde 240m<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-dollar-sign"></i> $775.000 de<br>contado</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-01.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Escobilla</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Escobilla, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>Terreno de<br>600M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-ruler"></i>Lotes planos</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i>A 40mts de<br>Playa Escobilla</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-02.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$2.500 por mensualidad</h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Las Parotas</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Valdeflores Segunda Secc, Oax, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> 200m<sup>2</sup> planos,<br>semiplanos</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-tree"></i> Zonas verdes</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-02.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Terreno 1 en Fracc. Acali</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,576.222 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-03.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">2 zonas desde $600-$650 m<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Tabachín</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> San Bernardino, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> Lotes desde<br>200m<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-dollar-sign"></i> 40 mensualidades<br>desde $3.750</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-03.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Terreno 2 en Fracc. Acali</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,416.167 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-04.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $5,250</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Costazul</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-sack-dollar"></i> 12 meses<br>sin intereses</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 300mts de<br>carretera federal</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-04.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$6,500,000</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Hectarea — Corozera</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>71847 Oax., México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-umbrella-beach"></i> A 25min de <br>Puerto Escondido</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-water"></i> Cerca<br>del mar</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-05.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $4,800</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Jardines 1</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>San Pedro, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-sack-dollar"></i> Financiamiento de<br>hasta 50 meses</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 200mts de<br>Carretera Federal</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-06.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $4,000</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Jardines 2</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>San Pedro, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>Lotes desde<br>$200,000 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Con promesa<br>de servicios</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 20min de<br>Puerto Escondido</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <a class="btn btn-mas-propies px-5" href="fraccionamientos.html">Ver más propiedades</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="tab-2" class="tab-propies tab-pane fade show p-0">
-                        <div class="row g-4">
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-01.webp" alt=""></a>
-
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$2.500 — $3.000 m<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Acali residencial</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> Desde 240m<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-dollar-sign"></i> $775.000 de<br>contado</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-02.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$2.500 por mensualidad</h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Las Parotas</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Valdeflores Segunda Secc, Oax, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> 200m<sup>2</sup> planos,<br>semiplanos</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-tree"></i> Zonas verdes</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-03.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">2 zonas desde $600-$650 m<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="#">Tabachín</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> San Bernardino, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i> Lotes desde<br>200m<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-                                        
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-dollar-sign"></i> 40 mensualidades<br>desde $3.750</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-04.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $5,250</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Costazul</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-sack-dollar"></i> 12 meses<br>sin intereses</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 300mts de<br>carretera federal</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-05.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $4,800</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Jardines 1</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>San Pedro, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-sack-dollar"></i> Financiamiento de<br>hasta 50 meses</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 200mts de<br>Carretera Federal</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- fraccionamiento -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/propies-home-06.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Fraccionamiento</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mensualidades desde $4,000</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Fraccionamiento Jardines 2</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>San Pedro, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>Lotes desde<br>$200,000 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Con promesa<br>de servicios</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 20min de<br>Puerto Escondido</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <a class="btn btn-mas-propies px-5" href="fraccionamientos.html">Ver más propiedades</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="tab-3" class="tab-propies tab-pane fade show p-0">
-                        <div class="row g-4">
-                            <div class="col-lg-4 col-md-6"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-01.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Escobilla</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Escobilla, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>Terreno de<br>600M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-ruler"></i>Lotes planos</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i>A 40mts de<br>Playa Escobilla</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-02.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Terreno 1 en Fracc. Acali</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,576.222 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-03.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
-
-                                        <a class="d-block h5 mb-2" href="">Terreno 2 en Fracc. Acali</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Las Negras, Oaxaca, México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,416.167 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i>Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6"> <!-- terreno -->
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/1-home/terres-home-04.webp" alt=""></a>
-
-                                        <div class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Terrenos</div>
-
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Playa</div>
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$6,500,000</h5>
-
-                                        <a class="d-block h5 mb-2" href="">Hectarea — Corozera</a>
-
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>71847 Oax., México</p>
-                                    </div>
-
-                                    <div class="d-flex border-top align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-umbrella-beach"></i> A 25min de <br>Puerto Escondido</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-water"></i> Cerca<br>del mar</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <a class="btn btn-mas-propies px-5" href="terrenos.html">Ver más propiedades</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Property List End -->
-
-        <!-- Testimonial Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="titu-testimo">¡Lo que dicen<br><span class="txt-acento-cla txt-acento-ub-2">nuestros clientes!</span></h1>
-
-                    <div class="underline-ver"></div>
-
-                    <p class="txt-testimo"><span class="txt-acento-ng">Ellos ya dieron el primer paso.</span> Déjate inspirar por las historias de quienes hoy disfrutan <span class="txt-acento-ng">del hogar que siempre quisieron.</span></p>
-                </div>
-
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded p-3 item-testimo1 item-testimo">
-                        <div class="bg-white border rounded p-4 contain-testimo">
-                            <p>Estuvimos buscando un terreno para construir nuestra casa por varios meses, pero no encontrábamos algo que se ajustara a nuestro presupuesto. Gracias al equipo de Puerto Escondido, todo fue mucho más sencillo. Nos mostraron varias opciones, nos explicaron los documentos necesarios y nos ayudaron con la negociación. En menos de dos semanas teníamos la escritura. Muy recomendables.</p>
-
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/1-home/img-testimonios-01.webp" style="width: 45px; height: 45px;">
-
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Ana Martínez y Carlos López</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-item rounded p-3 item-testimo2 item-testimo">
-                        <div class="bg-white border rounded p-4 contain-testimo">
-                            <p>Compré un lote como inversión a futuro, y en solo un año el valor aumentó más de lo que esperaba. La asesoría de fue clave: me explicaron las zonas con mayor proyección, los servicios cercanos y el potencial de plusvalía. Sin duda volvería a comprar otro terreno con ellos.</p>
-
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/1-home/img-testimonios-02.webp" style="width: 45px; height: 45px;">
-
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Roberto Méndez</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-item rounded p-3 item-testimo3 item-testimo">
-                        <div class="bg-white border rounded p-4 contain-testimo">
-                            <p>Éramos primerizos comprando un terreno y teníamos miedo de cometer errores legales o de ubicación. Puerto Escondido no solo nos ayudó a elegir el lote ideal para nuestra futura casa, sino que también nos guiaron con el notario, los servicios de luz y agua, y nos dieron tips para construir. El trato fue excelente, muy profesionales y amables.</p>
-
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/1-home/img-testimonios-03.webp" style="width: 45px; height: 45px;">
-
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Fernanda Ríos y Daniel Castro</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-item rounded p-3 item-testimo4 item-testimo">
-                        <div class="bg-white border rounded p-4 contain-testimo">
-                            <p>Comparé precios en varias inmobiliarias y remates bancarios, pero ninguno ofrecía la relación calidad-precio que me dieron en Puerto Escondido. El lote que compré está en una zona tranquila, con pavimento y cerca de escuelas. El proceso fue ágil y sin letras chiquitas. Si buscas un terreno seguro, este es el lugar.</p>
-
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/1-home/img-testimonios-04.webp" style="width: 45px; height: 45px;">
-
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Jorge Beltrán</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-         
-        <!-- inicio colapse faq -->
-        <div class="row btn-colapse colap-redes">
-            <div class="collapse" id="collapseExample">
-                <div class="row row-card align-items-center card-rrss card card-body">
-                    <a href="https://wa.link/w3zk0t" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ==" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
+              </div>
             </div>
 
-            <a class="btn-lg btn-lg-square btn-contac" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <i class="bi bi-chat-right-dots"></i>
+            <div class="col-md-2">
+              <button class="btn btn-busca w-100 py-3">Buscar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search End -->
+
+      <!-- Category Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div
+            class="text-center cuadro-somos mx-auto wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 600px"
+          >
+            <h1 class="mb-3 titu-propie">
+              Puerto Escondido,<br /><span class="txt-acento"
+                ><b>OAXACA</b></span
+              >
+            </h1>
+
+            <h3 class="subtitu-propie">
+              — invierte en este destino turístico —
+            </h3>
+
+            <p class="txt-propie">
+              Una vez que pises Puerto Escondido, tu corazón quedará enganchado
+              con la belleza de sus playas, su atmósfera rústica y relajada.<br /><br />Definitivamente
+              no te arrepentirás de invertir en un pedacito de esta joya del
+              pacífico mexicano y disfrutar de todas las virtudes que este lugar
+              mágico tiene para ti.
+            </p>
+
+            <p class="txt-propie1">¡Te esperamos!</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-01.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>HERMOSAS PLAYAS</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-02.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>GASTRONOMÍA</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-03.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>ECO-TURISMO</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-04.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>VIDA SALVAJE</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-05.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>FOLCLORE</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="cat-item d-block text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                  <div class="icon-invert icon mb-3">
+                    <img
+                      class="img-fluid"
+                      src="img/1-home/img-invertir-06.webp"
+                      alt="Icon"
+                    />
+                  </div>
+
+                  <h6>AVENTURA</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn btn-invert py-3 px-5 mt-3" href="servicios.html"
+            >Nosotros</a
+          >
+        </div>
+      </div>
+      <!-- Category End -->
+
+      <!-- About Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div
+              class="col-somos-home col-lg-6 wow fadeIn"
+              data-wow-delay="0.1s"
+            >
+              <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                <img
+                  class="img-fluid w-100"
+                  src="img/1-home/fraccion-home.webp"
+                />
+              </div>
+            </div>
+
+            <div
+              class="col-somos-home col-lg-6 wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <h1 class="mb-4 titu-noso">
+                Oportunidad de <span class="txt-acento">inversión Acali</span
+                ><br />- Playa Palmarito
+              </h1>
+
+              <p class="mb-4 txt-fraccio-destaca">
+                Imagina despertar cada mañana con el sonido del mar y la brisa
+                acariciando tu rostro.
+                <span class="txt-acento-b txt-acento"
+                  >Invertir en el fraccionamiento Acali, en Playa
+                  Palmarito,</span
+                >
+                no es solo adquirir un terreno, es comprar la tranquilidad y la
+                belleza de un estilo de vida que
+                <span class="txt-acento-b txt-acento">siempre soñaste.</span>
+              </p>
+
+              <p class="punto-fraccio-destaca">
+                <i class="fa fa-check check-noso me-3"></i>Acceso directo y
+                privado.
+              </p>
+
+              <p class="punto-fraccio-destaca">
+                <i class="fa fa-check check-noso me-3"></i>Localizado en Playa
+                Palmarito.
+              </p>
+
+              <p class="punto-fraccio-destaca">
+                <i class="fa fa-check check-noso me-3"></i>Servicios de agua y
+                luz listos para instalar.
+              </p>
+
+              <a class="btn btn-somos px-5 mt-3" href="fraccionamientos.html"
+                >Ver Lotes</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+
+      <!-- Property List Start -->
+      <div class="container-propied-home container-fluid py-5">
+        <div class="container">
+          <div class="row g-0 gx-5 align-items-end">
+            <div class="col-lg-12">
+              <div
+                class="text-start mx-auto mb-5 wow slideInLeft"
+                data-wow-delay="0.1s"
+              >
+                <h3 class="mb-3 titu-propies titu-propies1">nuestras</h3>
+
+                <h1 class="mb-3 titu-propies titu-propies2">Propiedades</h1>
+
+                <div class="underline-dots">
+                  <span class="circul circul1"></span>
+                  <span class="circul circul2"></span>
+                  <span class="circul circul3"></span>
+                  <span class="circul circul4"></span>
+                  <span class="circul circul5"></span>
+                </div>
+
+                <p class="txt-propies">
+                  <span class="txt-acento"
+                    >Cada fraccionamiento tiene una historia</span
+                  >
+                  esperando ser escrita. Te invitamos a descubrir los espacios
+                  que hemos seleccionado especialmente para ti, donde tus sueños
+                  y esfuerzos encontrarán el
+                  <span class="txt-acento">lugar perfecto para florecer.</span>
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-12 text-center wow slideInRight"
+              data-wow-delay="0.1s"
+            >
+              <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                <li class="nav-item me-2">
+                  <a
+                    class="btn btn-list-propies active"
+                    data-bs-toggle="pill"
+                    href="#tab-1"
+                    >Todos</a
+                  >
+                </li>
+
+                <li class="nav-item me-2">
+                  <a
+                    class="btn btn-list-propies"
+                    data-bs-toggle="pill"
+                    href="#tab-2"
+                    >Fraccionamientos</a
+                  >
+                </li>
+
+                <li class="nav-item me-0">
+                  <a
+                    class="btn btn-list-propies"
+                    data-bs-toggle="pill"
+                    href="#tab-3"
+                    >Terrenos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab-content">
+            <div id="tab-1" class="tab-propies tab-pane fade show p-0 active">
+              <div class="row g-4">
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-01.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        $2.500 — $3.000 m<sup>2</sup>
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href="#">Acali residencial</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        Desde 240m<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-dollar-sign"></i> $775.000 de<br />contado</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-01.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href="">Escobilla</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Escobilla, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >Terreno de<br />600M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-ruler"></i>Lotes planos</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i>A 40mts de<br />Playa
+                        Escobilla</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-02.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$2.500 por mensualidad</h5>
+
+                      <a class="d-block h5 mb-2" href="#">Las Parotas</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Valdeflores Segunda Secc, Oax, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        200m<sup>2</sup> planos,<br />semiplanos</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-tree"></i> Zonas verdes</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-02.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Terreno 1 en Fracc. Acali</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,576.222 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-03.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        2 zonas desde $600-$650 m<sup>2</sup>
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href="#">Tabachín</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        San Bernardino, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        Lotes desde<br />200m<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-dollar-sign"></i> 40
+                        mensualidades<br />desde $3.750</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                >
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-03.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Terreno 2 en Fracc. Acali</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,416.167 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-04.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $5,250
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Costazul</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-sack-dollar"></i> 12 meses<br />sin
+                        intereses</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 300mts
+                        de<br />carretera federal</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-04.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$6,500,000</h5>
+
+                      <a class="d-block h5 mb-2" href="">Hectarea — Corozera</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >71847 Oax., México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 25min de
+                        <br />Puerto Escondido</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-water"></i> Cerca<br />del
+                        mar</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.5s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-05.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $4,800
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Jardines 1</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >San Pedro, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-sack-dollar"></i> Financiamiento
+                        de<br />hasta 50 meses</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 200mts
+                        de<br />Carretera Federal</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-06.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $4,000
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Jardines 2</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >San Pedro, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >Lotes desde<br />$200,000 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Con promesa<br />de
+                        servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 20min
+                        de<br />Puerto Escondido</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 text-center">
+                  <a
+                    class="btn btn-mas-propies px-5"
+                    href="fraccionamientos.html"
+                    >Ver más propiedades</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div id="tab-2" class="tab-propies tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-01.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        $2.500 — $3.000 m<sup>2</sup>
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href="#">Acali residencial</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        Desde 240m<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-dollar-sign"></i> $775.000 de<br />contado</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-02.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$2.500 por mensualidad</h5>
+
+                      <a class="d-block h5 mb-2" href="#">Las Parotas</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Valdeflores Segunda Secc, Oax, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        200m<sup>2</sup> planos,<br />semiplanos</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-tree"></i> Zonas verdes</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-03.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        2 zonas desde $600-$650 m<sup>2</sup>
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href="#">Tabachín</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        San Bernardino, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>
+                        Lotes desde<br />200m<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-dollar-sign"></i> 40
+                        mensualidades<br />desde $3.750</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-04.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $5,250
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Costazul</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-sack-dollar"></i> 12 meses<br />sin
+                        intereses</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 300mts
+                        de<br />carretera federal</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-05.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $4,800
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Jardines 1</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >San Pedro, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-sack-dollar"></i> Financiamiento
+                        de<br />hasta 50 meses</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 200mts
+                        de<br />Carretera Federal</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- fraccionamiento -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/propies-home-06.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Fraccionamiento
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">
+                        Mensualidades desde $4,000
+                      </h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Fraccionamiento Jardines 2</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >San Pedro, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >Lotes desde<br />$200,000 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Con promesa<br />de
+                        servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 20min
+                        de<br />Puerto Escondido</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 text-center">
+                  <a
+                    class="btn btn-mas-propies px-5"
+                    href="fraccionamientos.html"
+                    >Ver más propiedades</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div id="tab-3" class="tab-propies tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-01.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href="">Escobilla</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Escobilla, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >Terreno de<br />600M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-ruler"></i>Lotes planos</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i>A 40mts de<br />Playa
+                        Escobilla</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-02.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Terreno 1 en Fracc. Acali</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,576.222 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-03.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x M<sup>2</sup></h5>
+
+                      <a class="d-block h5 mb-2" href=""
+                        >Terreno 2 en Fracc. Acali</a
+                      >
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >Las Negras, Oaxaca, México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,416.167 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i>Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <!-- terreno -->
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <a href=""
+                        ><img
+                          class="img-fluid"
+                          src="img/1-home/terres-home-04.webp"
+                          alt=""
+                      /></a>
+
+                      <div
+                        class="sena-propies rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                      >
+                        Terrenos
+                      </div>
+
+                      <div
+                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3"
+                      >
+                        Playa
+                      </div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$6,500,000</h5>
+
+                      <a class="d-block h5 mb-2" href="">Hectarea — Corozera</a>
+
+                      <p>
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i
+                        >71847 Oax., México
+                      </p>
+                    </div>
+
+                    <div class="d-flex border-top align-items-center">
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 25min de
+                        <br />Puerto Escondido</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-water"></i> Cerca<br />del
+                        mar</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 text-center">
+                  <a class="btn btn-mas-propies px-5" href="terrenos.html"
+                    >Ver más propiedades</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Property List End -->
+
+      <!-- Testimonial Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 600px"
+          >
+            <h1 class="titu-testimo">
+              ¡Lo que dicen<br /><span class="txt-acento-cla txt-acento-ub-2"
+                >nuestros clientes!</span
+              >
+            </h1>
+
+            <div class="underline-ver"></div>
+
+            <p class="txt-testimo">
+              <span class="txt-acento-ng">Ellos ya dieron el primer paso.</span>
+              Déjate inspirar por las historias de quienes hoy disfrutan
+              <span class="txt-acento-ng"
+                >del hogar que siempre quisieron.</span
+              >
+            </p>
+          </div>
+
+          <div
+            class="owl-carousel testimonial-carousel wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="testimonial-item rounded p-3 item-testimo1 item-testimo"
+            >
+              <div class="bg-white border rounded p-4 contain-testimo">
+                <p>
+                  Estuvimos buscando un terreno para construir nuestra casa por
+                  varios meses, pero no encontrábamos algo que se ajustara a
+                  nuestro presupuesto. Gracias al equipo de Puerto Escondido,
+                  todo fue mucho más sencillo. Nos mostraron varias opciones,
+                  nos explicaron los documentos necesarios y nos ayudaron con la
+                  negociación. En menos de dos semanas teníamos la escritura.
+                  Muy recomendables.
+                </p>
+
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded"
+                    src="img/1-home/img-testimonios-01.webp"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <div class="ps-3">
+                    <h6 class="fw-bold mb-1">Ana Martínez y Carlos López</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial-item rounded p-3 item-testimo2 item-testimo"
+            >
+              <div class="bg-white border rounded p-4 contain-testimo">
+                <p>
+                  Compré un lote como inversión a futuro, y en solo un año el
+                  valor aumentó más de lo que esperaba. La asesoría de fue
+                  clave: me explicaron las zonas con mayor proyección, los
+                  servicios cercanos y el potencial de plusvalía. Sin duda
+                  volvería a comprar otro terreno con ellos.
+                </p>
+
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded"
+                    src="img/1-home/img-testimonios-02.webp"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <div class="ps-3">
+                    <h6 class="fw-bold mb-1">Roberto Méndez</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial-item rounded p-3 item-testimo3 item-testimo"
+            >
+              <div class="bg-white border rounded p-4 contain-testimo">
+                <p>
+                  Éramos primerizos comprando un terreno y teníamos miedo de
+                  cometer errores legales o de ubicación. Puerto Escondido no
+                  solo nos ayudó a elegir el lote ideal para nuestra futura
+                  casa, sino que también nos guiaron con el notario, los
+                  servicios de luz y agua, y nos dieron tips para construir. El
+                  trato fue excelente, muy profesionales y amables.
+                </p>
+
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded"
+                    src="img/1-home/img-testimonios-03.webp"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <div class="ps-3">
+                    <h6 class="fw-bold mb-1">Fernanda Ríos y Daniel Castro</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="testimonial-item rounded p-3 item-testimo4 item-testimo"
+            >
+              <div class="bg-white border rounded p-4 contain-testimo">
+                <p>
+                  Comparé precios en varias inmobiliarias y remates bancarios,
+                  pero ninguno ofrecía la relación calidad-precio que me dieron
+                  en Puerto Escondido. El lote que compré está en una zona
+                  tranquila, con pavimento y cerca de escuelas. El proceso fue
+                  ágil y sin letras chiquitas. Si buscas un terreno seguro, este
+                  es el lugar.
+                </p>
+
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded"
+                    src="img/1-home/img-testimonios-04.webp"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <div class="ps-3">
+                    <h6 class="fw-bold mb-1">Jorge Beltrán</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+
+      <!-- inicio colapse faq -->
+      <div class="row btn-colapse colap-redes">
+        <div class="collapse" id="collapseExample">
+          <div class="row row-card align-items-center card-rrss card card-body">
+            <a
+              href="https://wa.link/w3zk0t"
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1"
+            >
+              <i class="bi bi-whatsapp"></i>
             </a>
+
+            <a
+              href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ=="
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
-        <!-- final colapse faq -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container container-foot-top py-5">
-                <div class="row-footer row g-5">
-                    <div class="col-foot col-foot-1 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Contáctanos</h5>
+        <a
+          class="btn-lg btn-lg-square btn-contac"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <i class="bi bi-chat-right-dots"></i>
+        </a>
+      </div>
+      <!-- final colapse faq -->
 
-                        <a class="btn btn-link" href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container container-foot-top py-5">
+          <div class="row-footer row g-5">
+            <div class="col-foot col-foot-1 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Contáctanos</h5>
 
-                        <a class="btn btn-link" href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a
+                class="btn btn-link"
+                href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="
+                ><i class="fa-brands fa-instagram"></i> Instagram</a
+              >
 
-                        <a class="btn btn-link" href="https://wa.link/w3zk0t"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              <a
+                class="btn btn-link"
+                href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"
+                ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+              >
 
-                        <a class="btn btn-link" href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"><i class="fa-regular fa-envelope"></i> Correo</a>
-                    </div>
+              <a class="btn btn-link" href="https://wa.link/bdb0k1"
+                ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+              >
 
-                    <div class="col-foot col-foot-2 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Web</h5>
-
-                        <a class="btn btn-link link-foot" href="index.html">inicio</a>
-                        <a class="btn btn-link link-foot" href="fraccionamientos.html">propiedades</a>
-                        <a class="btn btn-link link-foot" href="servicios.html">servicios</a>
-                        <a class="btn btn-link link-foot" href="promociones.html">promociones</a>
-                    </div>
-
-                    <div class="col-foot col-foot-3 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Noticias</h5>
-
-                        <p class="txt-foot">Entérate de nuestras promociones.</p>
-
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Tu email">
-
-                            <button type="button" class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
-                        </div>
-                    </div>
-
-                    <div class="col-foot col-foot-4 col-lg-3 col-md-6">
-                        <img class="logo-footer" src="img/0-header/logo-footer.webp" alt="">
-                    </div>
-                </div>
+              <a
+                class="btn btn-link"
+                href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"
+                ><i class="fa-regular fa-envelope"></i> Correo</a
+              >
             </div>
 
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
-                            &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos reservados. 
-                        </div>
+            <div class="col-foot col-foot-2 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Web</h5>
 
-                        <div class="col-md-6 firma-foot text-md-end">
-                           Desarrollado por <a class="dev-link" href="https://enfoca2sstudios.com/">Enfoca2's Studios</a>
-                        </div>
-                    </div>
-                </div>
+              <a class="btn btn-link link-foot" href="index.html">inicio</a>
+              <a class="btn btn-link link-foot" href="fraccionamientos.html"
+                >propiedades</a
+              >
+              <a class="btn btn-link link-foot" href="servicios.html"
+                >servicios</a
+              >
+              <a class="btn btn-link link-foot" href="promociones.html"
+                >promociones</a
+              >
             </div>
-        </div>
-        <!-- Footer End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <div class="col-foot col-foot-3 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Noticias</h5>
+
+              <p class="txt-foot">Entérate de nuestras promociones.</p>
+
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Tu email"
+                />
+
+                <button
+                  type="button"
+                  class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Enviar
+                </button>
+              </div>
+            </div>
+
+            <div class="col-foot col-foot-4 col-lg-3 col-md-6">
+              <img
+                class="logo-footer"
+                src="img/0-header/logo-footer.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
+                &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos
+                reservados.
+              </div>
+
+              <div class="col-md-6 firma-foot text-md-end">
+                Desarrollado por
+                <a class="dev-link" href="https://enfoca2sstudios.com/"
+                  >Enfoca2's Studios</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -1079,6 +1967,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

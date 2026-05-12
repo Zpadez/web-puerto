@@ -1,447 +1,687 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Inmobiliaria Puerto Escondido</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/0-header/logo-favicon.webp" rel="icon">
+    <link href="img/0-header/logo-favicon.webp" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/49286760f0.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-acento" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-acento"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+      <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+          <a
+            href="index.html"
+            class="navbar-brand d-flex align-items-center text-center"
+          >
+            <div class="p-2 me-2">
+              <img
+                class="logo-header"
+                src="img/0-header/logo-header.webp"
+                alt="Icon"
+              />
             </div>
-        </div>
-        <!-- Spinner End -->
+          </a>
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="p-2 me-2">
-                        <img class="logo-header" src="img/0-header/logo-header.webp" alt="Icon">
-                    </div>
-                </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="nav-item nav-link">Inicio</a>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                  >Propiedades</a
+                >
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Propiedades</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="fraccionamientos.html" class="dropdown-item"
+                    >Fraccionamientos</a
+                  >
 
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="fraccionamientos.html" class="dropdown-item">Fraccionamientos</a>
-
-                                <a href="terrenos.html" class="dropdown-item active">Terrenos</a>
-                            </div>
-                        </div>
-
-                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
-
-                        <a href="promociones.html" class="nav-item nav-link">Promociones</a>
-
-                        <a href="contacto.html" class="btn-head btn px-3 d-lg-flex">Contáctanos</a>
-                    </div>
+                  <a href="terrenos.html" class="dropdown-item active"
+                    >Terrenos</a
+                  >
                 </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+              </div>
 
-        <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="titu-hero-protafo titu-hero-terre display-5 animated fadeIn mb-4"><span class="txt-acento">Lista</span> de Terrenos</h1>
+              <a href="servicios.html" class="nav-item nav-link">Servicios</a>
 
-                    <div class="underline-dots-1">
-                        <span class="circul circul1"></span>
-                        <span class="circul circul2"></span>
-                        <span class="circul circul3"></span>
-                        <span class="circul circul4"></span>
-                        <span class="circul circul5"></span>
-                    </div>
-                </div>
+              <a href="promociones.html" class="nav-item nav-link"
+                >Promociones</a
+              >
 
-                <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/1-home/carru-hero-01.webp" alt="">
-                </div>
+              <a href="contacto.html" class="btn-head btn px-3 d-lg-flex"
+                >Contáctanos</a
+              >
             </div>
-        </div>
-        <!-- Header End -->
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
 
-        <!-- Search Start -->
-        <div class="container-fluid bg-verde-claro mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
-            <div class="container">
-                <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Una palabra clave">
-                            </div>
+      <!-- Header Start -->
+      <div class="container-fluid header bg-white p-0">
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+          <div class="col-md-6 p-5 mt-lg-5">
+            <h1
+              class="titu-hero-protafo titu-hero-terre display-5 animated fadeIn mb-4"
+            >
+              <span class="txt-acento">Lista</span> de Terrenos
+            </h1>
 
-                            <div class="col-md-4">
-                                <select class="form-select form-busca border-0 py-3">
-                                    <option selected>Tipo de lotes</option>
-
-                                    <option value="1">Lotes planos</option>
-
-                                    <option value="2">Lotes sobre calle principal</option>
-                                    
-                                    <option value="3">Lotes con servicios</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-4">
-                                <select class="form-select form-busca border-0 py-3">
-                                    <option selected>Locación</option>
-
-                                    <option value="1">Acali</option>
-
-                                    <option value="2">Las Parotas</option>
-
-                                    <option value="3">Tabachín</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <button class="btn btn-busca w-100 py-3">Buscar</button>
-                    </div>
-                </div>
+            <div class="underline-dots-1">
+              <span class="circul circul1"></span>
+              <span class="circul circul2"></span>
+              <span class="circul circul3"></span>
+              <span class="circul circul4"></span>
+              <span class="circul circul5"></span>
             </div>
+          </div>
+
+          <div class="col-md-6 animated fadeIn">
+            <img class="img-fluid" src="img/1-home/carru-hero-01.webp" alt="" />
+          </div>
         </div>
-        <!-- Search End -->
+      </div>
+      <!-- Header End -->
 
-        <!-- Property List Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-12">
-                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3 titu-propies titu-propies2">Terrenos</h1>
-
-                            <div class="underline-dots">
-                                <span class="circul circul1"></span>
-                                <span class="circul circul2"></span>
-                                <span class="circul circul3"></span>
-                                <span class="circul circul4"></span>
-                                <span class="circul circul5"></span>
-                            </div>
-
-                            <p class="txt-propies"><span class="txt-acento">Cada fraccionamiento tiene una historia</span> esperando ser escrita. Te invitamos a descubrir los espacios que hemos seleccionado especialmente para ti, donde tus sueños y recuerzos encontrarán el <span class="txt-acento">lugar perfecto para florecer.</span></p>
-                        </div>
-                    </div>
+      <!-- Search Start -->
+      <div
+        class="container-fluid bg-verde-claro mb-5 wow fadeIn"
+        data-wow-delay="0.1s"
+        style="padding: 35px"
+      >
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-md-10">
+              <div class="row g-2">
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="form-control border-0 py-3"
+                    placeholder="Una palabra clave"
+                  />
                 </div>
 
-                <div class="wrapper-geolocaliza">
-                    <div class="col-geolocaliza col-geolocaliza1">
-                        <div class="contain-fraccionas map-fraccionas">
-                            <div class="col-fraccionas col-fraccionas1 prime">
-                                <div class="mapa-fraccion">
-                                    <h3 class="titus-fraccion">Escobilla</h3>
+                <div class="col-md-4">
+                  <select class="form-select form-busca border-0 py-3">
+                    <option selected>Tipo de lotes</option>
 
-                                    <div class="img-terres">
-                                        <img src="img/2-1-fraccionamiento/terres-01.webp" alt="escobilla">
-                                    </div>
-                                </div>
-                            </div>
+                    <option value="1">Lotes planos</option>
 
-                            <div class="col-fraccionas col-fraccionas2 segun">
-                                <div class="mapa-fraccion">
-                                    <h3 class="titus-fraccion">1° Terreno en Acali</h3>
+                    <option value="2">Lotes sobre calle principal</option>
 
-                                    <div class="img-terres">
-                                        <img src="img/2-1-fraccionamiento/terres-02.webp" alt="terreno1-acali">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-fraccionas col-fraccionas3 terc">
-                                <div class="mapa-fraccion">
-                                    <h3 class="titus-fraccion">2° Terreno en Acali</h3>
-
-                                    <div class="img-terres">
-                                        <img src="img/2-1-fraccionamiento/terres-03.webp" alt="terreno2-acali">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-fraccionas col-fraccionas3 cuatr">
-                                <div class="mapa-fraccion">
-                                    <h3 class="titus-fraccion">Hectarea — Corozera</h3>
-
-                                    <div class="img-terres">
-                                        <img src="img/2-1-fraccionamiento/terres-04.webp" alt="corozera">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-geolocaliza col-geolocaliza2">
-                        <ul class="list-fraccion" id="fraccion-filter">
-                            <li class="btn-fraccion btn-fraccion2 active" data-filter=".prime">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <img class="img-fluid" src="img/1-home/terres-home-01.webp" alt="">
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
-
-                                        <a class="nom-direcc d-block h5 mb-2" href="#">Escobilla</a>
-
-                                        <a href="https://maps.app.goo.gl/oo17sdvxRnf1Kp928?g_st=ic" class="direcc-protafo"><i class="fa fa-map-marker-alt text-primary me-2"></i> Escobilla, Oaxaca, México</a>
-                                    </div>
-
-                                    <div class="propies-flex d-flex border-top border-bottom align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>Terreno de<br>600M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Lotes planos</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 40mts de<br>Playa<br>Escobilla</small>
-                                    </div>
-
-                                    <div class="info-fraccion">
-                                        <a href="terrenos-escobilla.html">Más información</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="btn-fraccion btn-fraccion3" data-filter=".segun">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <img class="img-fluid" src="img/1-home/terres-home-02.webp" alt="">
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x m<sup>2</sup></h5>
-
-                                        <a class="nom-direcc d-block h5 mb-2" href="#">Terreno 1 en Fracc. Acali</a>
-
-                                        <a href="https://maps.app.goo.gl/dcLg2CTBZncoos8Y6" class="direcc-protafo"><i class="fa fa-map-marker-alt text-primary me-2"></i> Las Negras, Oaxaca, México</a>
-                                    </div>
-
-                                    <div class="propies-flex d-flex border-top border-bottom align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,576.222 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-
-                                    <div class="info-fraccion">
-                                        <a href="terrenos-acali.html">Más información</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="btn-fraccion btn-fraccion4" data-filter=".terc">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <img class="img-fluid" src="img/1-home/terres-home-03.webp" alt="">
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$7,500 x m<sup>2</sup></h5>
-
-                                        <a class="nom-direcc d-block h5 mb-2" href="#">Terreno 2 en Fracc. Acali</a>
-
-                                        <a href="https://maps.app.goo.gl/dcLg2CTBZncoos8Y6" class="direcc-protafo"><i class="fa fa-map-marker-alt text-primary me-2"></i> Las Negras, Oaxaca, México</a>
-                                    </div>
-
-                                    <div class="propies-flex d-flex border-top border-bottom align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>3,416.167 M<sup>2</sup></small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Servicios listos<br>para instalar</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> A 100mts de<br>Playa Palmarito</small>
-                                    </div>
-
-                                    <div class="info-fraccion">
-                                        <a href="terrenos-acali.html">Más información</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="btn-fraccion btn-fraccion5" data-filter=".cuatr">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <img class="img-fluid" src="img/1-home/terres-home-04.webp" alt="">
-                                    </div>
-
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$6,500,000</h5>
-
-                                        <a class="nom-direcc d-block h5 mb-2" href="#">Hectarea — Corozera</a>
-
-                                        <a href="https://www.google.com/maps/place/Villa+de+Tututepec+de+Melchor+Ocampo,+71847+Oax./@15.9319279,-97.2131253,16z/data=!3m1!1e3!4m6!3m5!1s0x85b85b9abc87a845:0x59ea6482cb0eeef8!8m2!3d15.931099!4d-97.2141935!16s%2Fg%2F11md0y4q4x?g_ep=Eg1tbF8yMDI2MDEwNV8wIOC7DCoASAJQAg%3D%3D" class="direcc-protafo"><i class="fa fa-map-marker-alt text-primary me-2"></i> 71847 Oax., México</a>
-                                    </div>
-
-                                    <div class="propies-flex d-flex border-top border-bottom align-items-center">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>A 25min de <br>Puerto Escondido</small>
-
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa-solid fa-bolt"></i> Sin servicios</small>
-
-                                        <small class="flex-fill text-center py-2"><i class="fa-solid fa-umbrella-beach"></i> Cerca<br>del mar</small>
-                                    </div>
-
-                                    <div class="info-fraccion">
-                                        <a href="terrenos-corozera.html">Más información</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="btn-fraccion btn-fraccion5 btn-fraccion-none"></li>
-                        </ul>
-                    </div>
+                    <option value="3">Lotes con servicios</option>
+                  </select>
                 </div>
-            </div>
-        </div>
-        <!-- Property List End -->
 
-        <!-- Call to Action Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="bg-claro rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(119, 143, 85, 0.3)">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/3-servicios/cta-2.webp" alt="">
-                            </div>
+                <div class="col-md-4">
+                  <select class="form-select form-busca border-0 py-3">
+                    <option selected>Locación</option>
 
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="mb-4">
-                                    <h1 class="titu-agenda mb-3"><span class="txt-acento-cla">Contacta</span> con<br>nuestros agentes especializados</h1>
-                                </div>
+                    <option value="1">Acali</option>
 
-                                <a href="https://wa.link/w3zk0t" class="btn btn-llamar py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Llámanos</a>
+                    <option value="2">Las Parotas</option>
 
-                                <a href="https://wa.link/w3zk0t" class="btn btn-agendar py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Agendar una cita</a>
-                            </div>
-                        </div>
-                    </div>
+                    <option value="3">Tabachín</option>
+                  </select>
                 </div>
-            </div>
-        </div>
-        <!-- Call to Action End -->
-        
-        <!-- inicio colapse faq -->
-        <div class="row btn-colapse colap-redes">
-            <div class="collapse" id="collapseExample">
-                <div class="row row-card align-items-center card-rrss card card-body">
-                    <a href="https://wa.link/w3zk0t" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ==" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
+              </div>
             </div>
 
-            <a class="btn-lg btn-lg-square btn-contac" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <i class="bi bi-chat-right-dots"></i>
+            <div class="col-md-2">
+              <button class="btn btn-busca w-100 py-3">Buscar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search End -->
+
+      <!-- Property List Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row g-0 gx-5 align-items-end">
+            <div class="col-lg-12">
+              <div
+                class="text-start mx-auto mb-5 wow slideInLeft"
+                data-wow-delay="0.1s"
+              >
+                <h1 class="mb-3 titu-propies titu-propies2">Terrenos</h1>
+
+                <div class="underline-dots">
+                  <span class="circul circul1"></span>
+                  <span class="circul circul2"></span>
+                  <span class="circul circul3"></span>
+                  <span class="circul circul4"></span>
+                  <span class="circul circul5"></span>
+                </div>
+
+                <p class="txt-propies">
+                  <span class="txt-acento"
+                    >Cada fraccionamiento tiene una historia</span
+                  >
+                  esperando ser escrita. Te invitamos a descubrir los espacios
+                  que hemos seleccionado especialmente para ti, donde tus sueños
+                  y recuerzos encontrarán el
+                  <span class="txt-acento">lugar perfecto para florecer.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrapper-geolocaliza">
+            <div class="col-geolocaliza col-geolocaliza1">
+              <div class="contain-fraccionas map-fraccionas">
+                <div class="col-fraccionas col-fraccionas1 prime">
+                  <div class="mapa-fraccion">
+                    <h3 class="titus-fraccion">Escobilla</h3>
+
+                    <div class="img-terres">
+                      <img
+                        src="img/2-1-fraccionamiento/terres-01.webp"
+                        alt="escobilla"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-fraccionas col-fraccionas2 segun">
+                  <div class="mapa-fraccion">
+                    <h3 class="titus-fraccion">1° Terreno en Acali</h3>
+
+                    <div class="img-terres">
+                      <img
+                        src="img/2-1-fraccionamiento/terres-02.webp"
+                        alt="terreno1-acali"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-fraccionas col-fraccionas3 terc">
+                  <div class="mapa-fraccion">
+                    <h3 class="titus-fraccion">2° Terreno en Acali</h3>
+
+                    <div class="img-terres">
+                      <img
+                        src="img/2-1-fraccionamiento/terres-03.webp"
+                        alt="terreno2-acali"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-fraccionas col-fraccionas3 cuatr">
+                  <div class="mapa-fraccion">
+                    <h3 class="titus-fraccion">Hectarea — Corozera</h3>
+
+                    <div class="img-terres">
+                      <img
+                        src="img/2-1-fraccionamiento/terres-04.webp"
+                        alt="corozera"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-geolocaliza col-geolocaliza2">
+              <ul class="list-fraccion" id="fraccion-filter">
+                <li
+                  class="btn-fraccion btn-fraccion2 active"
+                  data-filter=".prime"
+                >
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <img
+                        class="img-fluid"
+                        src="img/1-home/terres-home-01.webp"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$4,000 x M<sup>2</sup></h5>
+
+                      <a class="nom-direcc d-block h5 mb-2" href="#"
+                        >Escobilla</a
+                      >
+
+                      <a
+                        href="https://maps.app.goo.gl/oo17sdvxRnf1Kp928?g_st=ic"
+                        class="direcc-protafo"
+                        ><i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Escobilla, Oaxaca, México</a
+                      >
+                    </div>
+
+                    <div
+                      class="propies-flex d-flex border-top border-bottom align-items-center"
+                    >
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >Terreno de<br />600M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Lotes planos</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 40mts
+                        de<br />Playa<br />Escobilla</small
+                      >
+                    </div>
+
+                    <div class="info-fraccion">
+                      <a href="terrenos-escobilla.html">Más información</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="btn-fraccion btn-fraccion3" data-filter=".segun">
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <img
+                        class="img-fluid"
+                        src="img/1-home/terres-home-02.webp"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x m<sup>2</sup></h5>
+
+                      <a class="nom-direcc d-block h5 mb-2" href="#"
+                        >Terreno 1 en Fracc. Acali</a
+                      >
+
+                      <a
+                        href="https://maps.app.goo.gl/dcLg2CTBZncoos8Y6"
+                        class="direcc-protafo"
+                        ><i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Las Negras, Oaxaca, México</a
+                      >
+                    </div>
+
+                    <div
+                      class="propies-flex d-flex border-top border-bottom align-items-center"
+                    >
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,576.222 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+
+                    <div class="info-fraccion">
+                      <a href="terrenos-acali.html">Más información</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="btn-fraccion btn-fraccion4" data-filter=".terc">
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <img
+                        class="img-fluid"
+                        src="img/1-home/terres-home-03.webp"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$7,500 x m<sup>2</sup></h5>
+
+                      <a class="nom-direcc d-block h5 mb-2" href="#"
+                        >Terreno 2 en Fracc. Acali</a
+                      >
+
+                      <a
+                        href="https://maps.app.goo.gl/dcLg2CTBZncoos8Y6"
+                        class="direcc-protafo"
+                        ><i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        Las Negras, Oaxaca, México</a
+                      >
+                    </div>
+
+                    <div
+                      class="propies-flex d-flex border-top border-bottom align-items-center"
+                    >
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i
+                        >3,416.167 M<sup>2</sup></small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Servicios listos<br />para
+                        instalar</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i> A 100mts
+                        de<br />Playa Palmarito</small
+                      >
+                    </div>
+
+                    <div class="info-fraccion">
+                      <a href="terrenos-acali.html">Más información</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="btn-fraccion btn-fraccion5" data-filter=".cuatr">
+                  <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                      <img
+                        class="img-fluid"
+                        src="img/1-home/terres-home-04.webp"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="p-4 pb-0">
+                      <h5 class="text-primary mb-3">$6,500,000</h5>
+
+                      <a class="nom-direcc d-block h5 mb-2" href="#"
+                        >Hectarea — Corozera</a
+                      >
+
+                      <a
+                        href="https://www.google.com/maps/place/Villa+de+Tututepec+de+Melchor+Ocampo,+71847+Oax./@15.9319279,-97.2131253,16z/data=!3m1!1e3!4m6!3m5!1s0x85b85b9abc87a845:0x59ea6482cb0eeef8!8m2!3d15.931099!4d-97.2141935!16s%2Fg%2F11md0y4q4x?g_ep=Eg1tbF8yMDI2MDEwNV8wIOC7DCoASAJQAg%3D%3D"
+                        class="direcc-protafo"
+                        ><i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        71847 Oax., México</a
+                      >
+                    </div>
+
+                    <div
+                      class="propies-flex d-flex border-top border-bottom align-items-center"
+                    >
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa fa-ruler-combined text-primary me-2"></i>A
+                        25min de <br />Puerto Escondido</small
+                      >
+
+                      <small class="flex-fill text-center border-end py-2"
+                        ><i class="fa-solid fa-bolt"></i> Sin servicios</small
+                      >
+
+                      <small class="flex-fill text-center py-2"
+                        ><i class="fa-solid fa-umbrella-beach"></i>
+                        Cerca<br />del mar</small
+                      >
+                    </div>
+
+                    <div class="info-fraccion">
+                      <a href="terrenos-corozera.html">Más información</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="btn-fraccion btn-fraccion5 btn-fraccion-none"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Property List End -->
+
+      <!-- Call to Action Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="bg-claro rounded p-3">
+            <div
+              class="bg-white rounded p-4"
+              style="border: 1px dashed rgba(119, 143, 85, 0.3)"
+            >
+              <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                  <img
+                    class="img-fluid rounded w-100"
+                    src="img/3-servicios/cta-2.webp"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                  <div class="mb-4">
+                    <h1 class="titu-agenda mb-3">
+                      <span class="txt-acento-cla">Contacta</span>
+                      con<br />nuestros agentes especializados
+                    </h1>
+                  </div>
+
+                  <a
+                    href="https://wa.link/bdb0k1"
+                    class="btn btn-llamar py-3 px-4 me-2"
+                    ><i class="fa fa-phone-alt me-2"></i>Llámanos</a
+                  >
+
+                  <a
+                    href="https://wa.link/bdb0k1"
+                    class="btn btn-agendar py-3 px-4"
+                    ><i class="fa fa-calendar-alt me-2"></i>Agendar una cita</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Call to Action End -->
+
+      <!-- inicio colapse faq -->
+      <div class="row btn-colapse colap-redes">
+        <div class="collapse" id="collapseExample">
+          <div class="row row-card align-items-center card-rrss card card-body">
+            <a
+              href="https://wa.link/w3zk0t"
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1"
+            >
+              <i class="bi bi-whatsapp"></i>
             </a>
+
+            <a
+              href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ=="
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
-        <!-- final colapse faq -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container container-foot-top py-5">
-                <div class="row-footer row g-5">
-                    <div class="col-foot col-foot-1 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Contáctanos</h5>
+        <a
+          class="btn-lg btn-lg-square btn-contac"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <i class="bi bi-chat-right-dots"></i>
+        </a>
+      </div>
+      <!-- final colapse faq -->
 
-                        <a class="btn btn-link" href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container container-foot-top py-5">
+          <div class="row-footer row g-5">
+            <div class="col-foot col-foot-1 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Contáctanos</h5>
 
-                        <a class="btn btn-link" href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a
+                class="btn btn-link"
+                href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="
+                ><i class="fa-brands fa-instagram"></i> Instagram</a
+              >
 
-                        <a class="btn btn-link" href="https://wa.link/w3zk0t"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              <a
+                class="btn btn-link"
+                href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"
+                ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+              >
 
-                        <a class="btn btn-link" href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"><i class="fa-regular fa-envelope"></i> Correo</a>
-                    </div>
+              <a class="btn btn-link" href="https://wa.link/bdb0k1"
+                ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+              >
 
-                    <div class="col-foot col-foot-2 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Web</h5>
-
-                        <a class="btn btn-link link-foot" href="">inicio</a>
-                        <a class="btn btn-link link-foot" href="">propiedades</a>
-                        <a class="btn btn-link link-foot" href="">servicios</a>
-                        <a class="btn btn-link link-foot" href="">promociones</a>
-                    </div>
-
-                    <div class="col-foot col-foot-3 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Noticias</h5>
-
-                        <p class="txt-foot">Entérate de nuestras promociones.</p>
-
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Tu email">
-
-                            <button type="button" class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
-                        </div>
-                    </div>
-
-                    <div class="col-foot col-foot-4 col-lg-3 col-md-6">
-                        <img class="logo-footer" src="img/0-header/logo-footer.webp" alt="">
-                    </div>
-                </div>
+              <a
+                class="btn btn-link"
+                href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"
+                ><i class="fa-regular fa-envelope"></i> Correo</a
+              >
             </div>
 
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
-                            &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos reservados. 
-                        </div>
+            <div class="col-foot col-foot-2 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Web</h5>
 
-                        <div class="col-md-6 firma-foot text-md-end">
-                           Desarrollado por <a class="dev-link" href="https://enfoca2sstudios.com/">Enfoca2's Studios</a>
-                        </div>
-                    </div>
-                </div>
+              <a class="btn btn-link link-foot" href="index.html">inicio</a>
+              <a class="btn btn-link link-foot" href="fraccionamientos.html"
+                >propiedades</a
+              >
+              <a class="btn btn-link link-foot" href="servicios.html"
+                >servicios</a
+              >
+              <a class="btn btn-link link-foot" href="promociones.html"
+                >promociones</a
+              >
             </div>
-        </div>
-        <!-- Footer End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <div class="col-foot col-foot-3 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Noticias</h5>
+
+              <p class="txt-foot">Entérate de nuestras promociones.</p>
+
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Tu email"
+                />
+
+                <button
+                  type="button"
+                  class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Enviar
+                </button>
+              </div>
+            </div>
+
+            <div class="col-foot col-foot-4 col-lg-3 col-md-6">
+              <img
+                class="logo-footer"
+                src="img/0-header/logo-footer.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
+                &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos
+                reservados.
+              </div>
+
+              <div class="col-md-6 firma-foot text-md-end">
+                Desarrollado por
+                <a class="dev-link" href="https://enfoca2sstudios.com/"
+                  >Enfoca2's Studios</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -456,6 +696,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,272 +1,426 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Inmobiliaria Puerto Escondido</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/0-header/logo-favicon.webp" rel="icon">
+    <link href="img/0-header/logo-favicon.webp" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/49286760f0.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-acento" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-acento"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+      <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+          <a
+            href="index.html"
+            class="navbar-brand d-flex align-items-center text-center"
+          >
+            <div class="p-2 me-2">
+              <img
+                class="logo-header"
+                src="img/0-header/logo-header.webp"
+                alt="Icon"
+              />
             </div>
-        </div>
-        <!-- Spinner End -->
+          </a>
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="p-2 me-2">
-                        <img class="logo-header" src="img/0-header/logo-header.webp" alt="Icon">
-                    </div>
-                </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="nav-item nav-link">Inicio</a>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Propiedades</a
+                >
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Propiedades</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="fraccionamientos.html" class="dropdown-item"
+                    >Fraccionamientos</a
+                  >
 
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="fraccionamientos.html" class="dropdown-item">Fraccionamientos</a>
-
-                                <a href="terrenos.html" class="dropdown-item">Terrenos</a>
-                            </div>
-                        </div>
-
-                        <a href="servicios.html" class="nav-item nav-link">Servicios</a>
-
-                        <a href="promociones.html" class="nav-item nav-link">Promociones</a>
-
-                        <a href="contacto.html" class="btn-head btn px-3 d-lg-flex btn-active">Contáctanos</a>
-                    </div>
+                  <a href="terrenos.html" class="dropdown-item">Terrenos</a>
                 </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+              </div>
 
-        <!-- Contact Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Contáctanos</h1>
+              <a href="servicios.html" class="nav-item nav-link">Servicios</a>
+
+              <a href="promociones.html" class="nav-item nav-link"
+                >Promociones</a
+              >
+
+              <a
+                href="contacto.html"
+                class="btn-head btn px-3 d-lg-flex btn-active"
+                >Contáctanos</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
+
+      <!-- Contact Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 600px"
+          >
+            <h1 class="mb-3">Contáctanos</h1>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="row gy-4 align-items-center">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                  <div class="bg-light rounded p-3">
+                    <div
+                      class="d-flex align-items-center bg-white rounded p-3"
+                      style="border: 1px dashed rgba(0, 185, 142, 0.3)"
+                    >
+                      <div
+                        class="icono-contact icon me-3"
+                        style="width: 45px; height: 45px"
+                      >
+                        <i class="fa fa-map-marker-alt text-icon"></i>
+                      </div>
+
+                      <span
+                        >71984 Sector Reforma B, Centro, 71980 Puerto Escondido,
+                        Oax.</span
+                      >
+                    </div>
+                  </div>
                 </div>
 
-                <div class="row g-4">
-                    <div class="col-12">
-                        <div class="row gy-4 align-items-center">
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                                        <div class="icono-contact icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-map-marker-alt text-icon"></i>
-                                        </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="bg-light rounded p-3">
+                    <div
+                      class="d-flex align-items-center bg-white rounded p-3"
+                      style="border: 1px dashed rgba(0, 185, 142, 0.3)"
+                    >
+                      <div
+                        class="icono-contact icon me-3"
+                        style="width: 45px; height: 45px"
+                      >
+                        <i class="fa fa-envelope-open text-icon"></i>
+                      </div>
 
-                                        <span>71984 Sector Reforma B, Centro, 71980 Puerto Escondido, Oax.</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                                        <div class="icono-contact icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-envelope-open text-icon"></i>
-                                        </div>
-
-                                        <span>@inmobiliariapuertoescondido</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                                        <div class="icono-contact icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-icon"></i>
-                                        </div>
-
-                                        <span>(+52) 954 108 4925</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      <span>@inmobiliariapuertoescondido</span>
                     </div>
+                  </div>
+                </div>
 
-                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <iframe class="position-relative rounded w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                            frameborder="0" style="min-height: 400px; border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                  <div class="bg-light rounded p-3">
+                    <div
+                      class="d-flex align-items-center bg-white rounded p-3"
+                      style="border: 1px dashed rgba(0, 185, 142, 0.3)"
+                    >
+                      <div
+                        class="icono-contact icon me-3"
+                        style="width: 45px; height: 45px"
+                      >
+                        <i class="fa fa-phone-alt text-icon"></i>
+                      </div>
+
+                      <span>(+52) 954 108 4925</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <iframe
+                class="position-relative rounded w-100 h-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0"
+                style="min-height: 400px; border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+
+            <div class="col-md-6">
+              <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <h4 class="mb-4 txt-contact">
+                  Queremos escucharte,
+                  <span class="txt-acento">escríbenos</span> todas<br />las
+                  dudas que tengas
+                </h4>
+
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                        />
+
+                        <label for="name">Tu nombre</label>
+                      </div>
                     </div>
 
                     <div class="col-md-6">
-                        <div class="wow fadeInUp" data-wow-delay="0.5s">
-                            <h4 class="mb-4 txt-contact">Queremos escucharte, <span class="txt-acento">escríbenos</span> todas<br>las dudas que tengas</h4>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your Email"
+                        />
 
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-
-                                            <label for="name">Tu nombre</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-
-                                            <label for="email">Tu email</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-
-                                            <label for="subject">Pregunta</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-
-                                            <label for="message">Mensaje</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button class="btn btn-contacto w-100 py-3" type="submit">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                        <label for="email">Tu email</label>
+                      </div>
                     </div>
-                </div>
+
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject"
+                        />
+
+                        <label for="subject">Pregunta</label>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control"
+                          placeholder="Leave a message here"
+                          id="message"
+                          style="height: 150px"
+                        ></textarea>
+
+                        <label for="message">Mensaje</label>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <button class="btn btn-contacto w-100 py-3" type="submit">
+                        Enviar
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Contact End -->
+      </div>
+      <!-- Contact End -->
 
-        <!-- inicio colapse faq -->
-        <div class="row btn-colapse colap-redes">
-            <div class="collapse" id="collapseExample">
-                <div class="row row-card align-items-center card-rrss card card-body">
-                    <a href="https://wa.link/w3zk0t" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ==" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
-            </div>
-
-            <a class="btn-lg btn-lg-square btn-contac" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <i class="bi bi-chat-right-dots"></i>
+      <!-- inicio colapse faq -->
+      <div class="row btn-colapse colap-redes">
+        <div class="collapse" id="collapseExample">
+          <div class="row row-card align-items-center card-rrss card card-body">
+            <a
+              href="https://wa.link/w3zk0t"
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1"
+            >
+              <i class="bi bi-whatsapp"></i>
             </a>
+
+            <a
+              href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ=="
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
-        <!-- final colapse faq -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container container-foot-top py-5">
-                <div class="row-footer row g-5">
-                    <div class="col-foot col-foot-1 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Contáctanos</h5>
+        <a
+          class="btn-lg btn-lg-square btn-contac"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <i class="bi bi-chat-right-dots"></i>
+        </a>
+      </div>
+      <!-- final colapse faq -->
 
-                        <a class="btn btn-link" href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container container-foot-top py-5">
+          <div class="row-footer row g-5">
+            <div class="col-foot col-foot-1 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Contáctanos</h5>
 
-                        <a class="btn btn-link" href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a
+                class="btn btn-link"
+                href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="
+                ><i class="fa-brands fa-instagram"></i> Instagram</a
+              >
 
-                        <a class="btn btn-link" href="https://wa.link/w3zk0t"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              <a
+                class="btn btn-link"
+                href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"
+                ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+              >
 
-                        <a class="btn btn-link" href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"><i class="fa-regular fa-envelope"></i> Correo</a>
-                    </div>
+              <a class="btn btn-link" href="https://wa.link/bdb0k1"
+                ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+              >
 
-                    <div class="col-foot col-foot-2 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Web</h5>
-
-                        <a class="btn btn-link link-foot" href="index.html">inicio</a>
-                        <a class="btn btn-link link-foot" href="fraccionamientos.html">propiedades</a>
-                        <a class="btn btn-link link-foot" href="servicios.html">servicios</a>
-                        <a class="btn btn-link link-foot" href="promociones.html">promociones</a>
-                    </div>
-
-                    <div class="col-foot col-foot-3 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Noticias</h5>
-
-                        <p class="txt-foot">Entérate de nuestras promociones.</p>
-
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Tu email">
-
-                            <button type="button" class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
-                        </div>
-                    </div>
-
-                    <div class="col-foot col-foot-4 col-lg-3 col-md-6">
-                        <img class="logo-footer" src="img/0-header/logo-footer.webp" alt="">
-                    </div>
-                </div>
+              <a
+                class="btn btn-link"
+                href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"
+                ><i class="fa-regular fa-envelope"></i> Correo</a
+              >
             </div>
 
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
-                            &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos reservados. 
-                        </div>
+            <div class="col-foot col-foot-2 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Web</h5>
 
-                        <div class="col-md-6 firma-foot text-md-end">
-                           Desarrollado por <a class="dev-link" href="https://enfoca2sstudios.com/">Enfoca2's Studios</a>
-                        </div>
-                    </div>
-                </div>
+              <a class="btn btn-link link-foot" href="index.html">inicio</a>
+              <a class="btn btn-link link-foot" href="fraccionamientos.html"
+                >propiedades</a
+              >
+              <a class="btn btn-link link-foot" href="servicios.html"
+                >servicios</a
+              >
+              <a class="btn btn-link link-foot" href="promociones.html"
+                >promociones</a
+              >
             </div>
-        </div>
-        <!-- Footer End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <div class="col-foot col-foot-3 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Noticias</h5>
+
+              <p class="txt-foot">Entérate de nuestras promociones.</p>
+
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Tu email"
+                />
+
+                <button
+                  type="button"
+                  class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Enviar
+                </button>
+              </div>
+            </div>
+
+            <div class="col-foot col-foot-4 col-lg-3 col-md-6">
+              <img
+                class="logo-footer"
+                src="img/0-header/logo-footer.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
+                &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos
+                reservados.
+              </div>
+
+              <div class="col-md-6 firma-foot text-md-end">
+                Desarrollado por
+                <a class="dev-link" href="https://enfoca2sstudios.com/"
+                  >Enfoca2's Studios</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -279,6 +433,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,360 +1,529 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Inmobiliaria Puerto Escondido</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/0-header/logo-favicon.webp" rel="icon">
+    <link href="img/0-header/logo-favicon.webp" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/49286760f0.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-acento" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-acento"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+      <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+          <a
+            href="index.html"
+            class="navbar-brand d-flex align-items-center text-center"
+          >
+            <div class="p-2 me-2">
+              <img
+                class="logo-header"
+                src="img/0-header/logo-header.webp"
+                alt="Icon"
+              />
             </div>
-        </div>
-        <!-- Spinner End -->
+          </a>
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="p-2 me-2">
-                        <img class="logo-header" src="img/0-header/logo-header.webp" alt="Icon">
-                    </div>
-                </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="nav-item nav-link">Inicio</a>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Propiedades</a
+                >
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Propiedades</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="fraccionamientos.html" class="dropdown-item"
+                    >Fraccionamientos</a
+                  >
 
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="fraccionamientos.html" class="dropdown-item">Fraccionamientos</a>
-
-                                <a href="terrenos.html" class="dropdown-item">Terrenos</a>
-                            </div>
-                        </div>
-
-                        <a href="servicios.html" class="nav-item nav-link active">Servicios</a>
-
-                        <a href="promociones.html" class="nav-item nav-link">Promociones</a>
-
-                        <a href="contacto.html" class="btn-head btn px-3 d-lg-flex">Contáctanos</a>
-                    </div>
+                  <a href="terrenos.html" class="dropdown-item">Terrenos</a>
                 </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+              </div>
 
-        <!-- Header Start -->
-        <div class="container-fluid container-hero-servis header">
-            <div class="contain-hero-somos">
-                <p class="txt-hero-somos">Nuestra<br><span class="txt-acento-ub-2 txt-acento-bla">Información</span></p>
+              <a href="servicios.html" class="nav-item nav-link active"
+                >Servicios</a
+              >
 
-                <div class="underline-dots underline-somos">
-                    <span class="circul-1 circul1"></span>
-                    <span class="circul-1 circul2"></span>
-                    <span class="circul-1 circul3"></span>
-                    <span class="circul-1 circul4"></span>
-                    <span class="circul-1 circul5"></span>
-                </div>
+              <a href="promociones.html" class="nav-item nav-link"
+                >Promociones</a
+              >
 
-                <h1 class="titu-hero-somos">
-                    Con 
-                    <span class="txt-acento-b">años de experiencia</span> y un profundo conocimiento del mercado 
-                    <span class="txt-acento-b">inmobiliario,</span> nos dedicamos a 
-                    <span class="txt-acento-b">hacer realidad<br>el sueño de tener un hogar.</span>
-                </h1>
+              <a href="contacto.html" class="btn-head btn px-3 d-lg-flex"
+                >Contáctanos</a
+              >
             </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
+
+      <!-- Header Start -->
+      <div class="container-fluid container-hero-servis header">
+        <div class="contain-hero-somos">
+          <p class="txt-hero-somos">
+            Nuestra<br /><span class="txt-acento-ub-2 txt-acento-bla"
+              >Información</span
+            >
+          </p>
+
+          <div class="underline-dots underline-somos">
+            <span class="circul-1 circul1"></span>
+            <span class="circul-1 circul2"></span>
+            <span class="circul-1 circul3"></span>
+            <span class="circul-1 circul4"></span>
+            <span class="circul-1 circul5"></span>
+          </div>
+
+          <h1 class="titu-hero-somos">
+            Con
+            <span class="txt-acento-b">años de experiencia</span> y un profundo
+            conocimiento del mercado
+            <span class="txt-acento-b">inmobiliario,</span> nos dedicamos a
+            <span class="txt-acento-b"
+              >hacer realidad<br />el sueño de tener un hogar.</span
+            >
+          </h1>
         </div>
-        <!-- Header End -->
+      </div>
+      <!-- Header End -->
 
-        <!-- About Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
-                <div class="row row-somos g-5 align-items-center">
-                    <div class="col-lg-6 col-somos wow fadeIn" data-wow-delay="0.1s">
-                        <div class="somos-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/call-to-action.jpg">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-somos wow fadeIn" data-wow-delay="0.5s">
-                        <h3 class="mb-3 titu-somos titu-somos1">SOMOS TU</h3>
-
-                        <h1 class="mb-3 titu-somos titu-somos2">MEJOR OPCIÓN</h1>
-
-                        <div class="underline-dots-2 underline-somos">
-                            <span class="circul circul1"></span>
-                            <span class="circul circul2"></span>
-                            <span class="circul circul3"></span>
-                            <span class="circul circul4"></span>
-                            <span class="circul circul5"></span>
-                        </div>
-
-                        <p class="mb-4 txt-somos">Nos dedicamos a la intermediación en la <strong>compra-venta</strong> de inmuebles, terrenos, ranchos y fraccionamientos a buen precio, en <strong>Puerto Escondido</strong> y sus zonas aledañas.<br><br>Brindamos la confianza que usted necesita en la realización de <strong>compra-venta</strong> de inmuebles, encargándonos que dichas operaciones se lleven a cabo con toda la <strong>seguridad jurídica</strong> que se requiera.<br><br>Contamos con un equipo de colaboradores con más de <strong>30 años de experiencia</strong> en el ramo inmobiliario, que le darán esa seguridad y garantía que necesita a la hora de <strong>invertir</strong> en un inmueble con nosotros que será su patrimonio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-        <!-- Credenciales Start -->
-        <div class="container-fluid wrapper-creden">
-            <div class="container-creden">
-                <div class="row row-creden">
-                    <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
-                        <div class="contain-creden">
-                            <p class="num-creden">100%</p>
-
-                            <p class="txt-creden">empresa<br><span class="txt-acento-ub-1">mexicana</span></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
-                        <div class="contain-creden">
-                            <p class="num-creden">+30</p>
-
-                            <p class="txt-creden">años de<br><span class="txt-acento-ub-1">experiencia</span></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
-                        <div class="contain-creden">
-                            <p class="num-creden">100%</p>
-
-                            <p class="txt-creden">empresa<br><span class="txt-acento-ub-1">mexicana</span></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
-                        <div class="contain-creden">
-                            <p class="num-creden">+30</p>
-
-                            <p class="txt-creden">años de<br><span class="txt-acento-ub-1">experiencia</span></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
-                        <div class="contain-creden">
-                            <p class="num-creden">100%</p>
-
-                            <p class="txt-creden">empresa<br><span class="txt-acento-ub-1">mexicana</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Credenciales End -->
-
-        <!-- Misión/Visión Start -->
-        <div class="container-fluid wrapper-mis-vis py-5">
-            <div class="container container-mis-vis">
-                <div class="row row-mis-vis">
-                    <div class="col-lg-5 col-mis-vis col-mis-vis1">
-                        <div class="contain-mis-vis">
-                            <h3 class="titu-mis-vis">— Misión —</h3>
-
-                            <div class="underline-ver-2 underline-mis-mis"></div>
-
-                            <p class="txt-mis-vis">Somos una empresa dedicada a la <span class="txt-acento-ub-2">compra, venta y promoción</span> de propiedades en la costa oaxaqueña. Estamos comprometidos en poder proporcionar <span class="txt-acento-ub-2">asesoramiento integral</span> para poder entender y solucionar las necesidades de nuestros clientes. Buscamos ser la opción más <span class="txt-acento-ub-2">confiable</span> para la adquisición de una propiedad, basándonos en nuestra experiencia, transparencia y profesionalismo.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 col-mis-vis col-mis-vis2">
-                        <div class="contain-mis-vis">
-                            <h3 class="titu-mis-vis">— Visión —</h3>
-
-                            <div class="underline-ver-2 underline-mis-mis"></div>
-
-                            <p class="txt-mis-vis">Posicionarnos como la empresa costeña más <span class="txt-acento-ub-2">confiable</span> y con mayor experiencia en el mercado inmobiliario de <span class="txt-acento-ub-2">Puerto Escondido, Oaxaca</span> para que las personas acudan como primera opción hacia nosotros y así poder trabajar con orgullo y seguir creciendo con éxito junto a nuestros clientes en la búsqueda de maximizar el <span class="txt-acento-ub-2">valor de sus inversiones,</span> satisfacer sus necesidades y otorgarles la posibilidad de encontrar su nuevo hogar.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Misión/Visión End -->
-
-        <!-- Valores Start -->
-        <div class="container-fluid py-5 wrapper-valores">
-            <div class="container container-valores">
-                <div class="row row-valores">
-                    <div class="col-lg-6 col-valores col-valores1"></div>
-
-                    <div class="col-lg-6 col-valores col-valores2">
-                        <h3 class="titu-valores">Valores</h3>
-                        
-                        <div class="item-valores">
-                            <div class="titu-item-valores">
-                                <img src="img/3-servicios/img-valores-01.webp" alt="#">
-
-                                <p>Calidad</p>
-                            </div>
-
-                            <p class="txt-item-valores">Nos distinguimos por el trato y apoyo que le brindamos a nuestros clientes para ayudarlos a buscar la mejor opción, adecuada a sus necesidades y gustos.</p>
-                        </div>
-
-                        <div class="item-valores">
-                            <div class="titu-item-valores">
-                                <img src="img/3-servicios/img-valores-02.webp" alt="#">
-
-                                <p>Compromiso</p>
-                            </div>
-
-                            <p class="txt-item-valores">Nos comprometemos como empresa en asesorar y acompañar al comprador en todo el proceso de la adquisición de su propiedad.</p>
-                        </div>
-
-                        <div class="item-valores">
-                            <div class="titu-item-valores">
-                                <img src="img/3-servicios/img-valores-03.webp" alt="#">
-
-                                <p>Responsabilidad</p>
-                            </div>
-
-                            <p class="txt-item-valores">Nos encargamos en entregar bienes y servicios de calidad.</p>
-                        </div>
-
-                        <div class="item-valores">
-                            <div class="titu-item-valores">
-                                <img src="img/3-servicios/img-valores-04.webp" alt="#">
-
-                                <p>Seguridad</p>
-                            </div>
-
-                            <p class="txt-item-valores">Resaltar un vínculo de confianza en los que los clientes se sientan satisfechos en sus necesidades, deseos y proyectos.</p>
-                        </div>
-
-                        <div class="item-valores">
-                            <div class="titu-item-valores">
-                                <img src="img/3-servicios/img-valores-05.webp" alt="#">
-
-                                <p>Honestidad</p>
-                            </div>
-
-                            <p class="txt-item-valores">Nos enfocamos en darle transparencia y credibilidad a nuestra empresa, dando el mejor servicio y generando confianza a través de la verdad.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Valores End -->
-        
-        <!-- inicio colapse faq -->
-        <div class="row btn-colapse colap-redes">
-            <div class="collapse" id="collapseExample">
-                <div class="row row-card align-items-center card-rrss card card-body">
-                    <a href="https://wa.link/w3zk0t" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ==" class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
+      <!-- About Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row row-somos g-5 align-items-center">
+            <div class="col-lg-6 col-somos wow fadeIn" data-wow-delay="0.1s">
+              <div class="somos-img position-relative overflow-hidden p-5 pe-0">
+                <img class="img-fluid w-100" src="img/call-to-action.jpg" />
+              </div>
             </div>
 
-            <a class="btn-lg btn-lg-square btn-contac" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <i class="bi bi-chat-right-dots"></i>
+            <div class="col-lg-6 col-somos wow fadeIn" data-wow-delay="0.5s">
+              <h3 class="mb-3 titu-somos titu-somos1">SOMOS TU</h3>
+
+              <h1 class="mb-3 titu-somos titu-somos2">MEJOR OPCIÓN</h1>
+
+              <div class="underline-dots-2 underline-somos">
+                <span class="circul circul1"></span>
+                <span class="circul circul2"></span>
+                <span class="circul circul3"></span>
+                <span class="circul circul4"></span>
+                <span class="circul circul5"></span>
+              </div>
+
+              <p class="mb-4 txt-somos">
+                Nos dedicamos a la intermediación en la
+                <strong>compra-venta</strong> de inmuebles, terrenos, ranchos y
+                fraccionamientos a buen precio, en
+                <strong>Puerto Escondido</strong> y sus zonas aledañas.<br /><br />Brindamos
+                la confianza que usted necesita en la realización de
+                <strong>compra-venta</strong> de inmuebles, encargándonos que
+                dichas operaciones se lleven a cabo con toda la
+                <strong>seguridad jurídica</strong> que se requiera.<br /><br />Contamos
+                con un equipo de colaboradores con más de
+                <strong>30 años de experiencia</strong> en el ramo inmobiliario,
+                que le darán esa seguridad y garantía que necesita a la hora de
+                <strong>invertir</strong> en un inmueble con nosotros que será
+                su patrimonio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+
+      <!-- Credenciales Start -->
+      <div class="container-fluid wrapper-creden">
+        <div class="container-creden">
+          <div class="row row-creden">
+            <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
+              <div class="contain-creden">
+                <p class="num-creden">100%</p>
+
+                <p class="txt-creden">
+                  empresa<br /><span class="txt-acento-ub-1">mexicana</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
+              <div class="contain-creden">
+                <p class="num-creden">+30</p>
+
+                <p class="txt-creden">
+                  años de<br /><span class="txt-acento-ub-1">experiencia</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
+              <div class="contain-creden">
+                <p class="num-creden">100%</p>
+
+                <p class="txt-creden">
+                  empresa<br /><span class="txt-acento-ub-1">mexicana</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
+              <div class="contain-creden">
+                <p class="num-creden">+30</p>
+
+                <p class="txt-creden">
+                  años de<br /><span class="txt-acento-ub-1">experiencia</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-creden wow fadeIn" data-wow-delay="0.1s">
+              <div class="contain-creden">
+                <p class="num-creden">100%</p>
+
+                <p class="txt-creden">
+                  empresa<br /><span class="txt-acento-ub-1">mexicana</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Credenciales End -->
+
+      <!-- Misión/Visión Start -->
+      <div class="container-fluid wrapper-mis-vis py-5">
+        <div class="container container-mis-vis">
+          <div class="row row-mis-vis">
+            <div class="col-lg-5 col-mis-vis col-mis-vis1">
+              <div class="contain-mis-vis">
+                <h3 class="titu-mis-vis">— Misión —</h3>
+
+                <div class="underline-ver-2 underline-mis-mis"></div>
+
+                <p class="txt-mis-vis">
+                  Somos una empresa dedicada a la
+                  <span class="txt-acento-ub-2">compra, venta y promoción</span>
+                  de propiedades en la costa oaxaqueña. Estamos comprometidos en
+                  poder proporcionar
+                  <span class="txt-acento-ub-2">asesoramiento integral</span>
+                  para poder entender y solucionar las necesidades de nuestros
+                  clientes. Buscamos ser la opción más
+                  <span class="txt-acento-ub-2">confiable</span> para la
+                  adquisición de una propiedad, basándonos en nuestra
+                  experiencia, transparencia y profesionalismo.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-mis-vis col-mis-vis2">
+              <div class="contain-mis-vis">
+                <h3 class="titu-mis-vis">— Visión —</h3>
+
+                <div class="underline-ver-2 underline-mis-mis"></div>
+
+                <p class="txt-mis-vis">
+                  Posicionarnos como la empresa costeña más
+                  <span class="txt-acento-ub-2">confiable</span> y con mayor
+                  experiencia en el mercado inmobiliario de
+                  <span class="txt-acento-ub-2">Puerto Escondido, Oaxaca</span>
+                  para que las personas acudan como primera opción hacia
+                  nosotros y así poder trabajar con orgullo y seguir creciendo
+                  con éxito junto a nuestros clientes en la búsqueda de
+                  maximizar el
+                  <span class="txt-acento-ub-2">valor de sus inversiones,</span>
+                  satisfacer sus necesidades y otorgarles la posibilidad de
+                  encontrar su nuevo hogar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Misión/Visión End -->
+
+      <!-- Valores Start -->
+      <div class="container-fluid py-5 wrapper-valores">
+        <div class="container container-valores">
+          <div class="row row-valores">
+            <div class="col-lg-6 col-valores col-valores1"></div>
+
+            <div class="col-lg-6 col-valores col-valores2">
+              <h3 class="titu-valores">Valores</h3>
+
+              <div class="item-valores">
+                <div class="titu-item-valores">
+                  <img src="img/3-servicios/img-valores-01.webp" alt="#" />
+
+                  <p>Calidad</p>
+                </div>
+
+                <p class="txt-item-valores">
+                  Nos distinguimos por el trato y apoyo que le brindamos a
+                  nuestros clientes para ayudarlos a buscar la mejor opción,
+                  adecuada a sus necesidades y gustos.
+                </p>
+              </div>
+
+              <div class="item-valores">
+                <div class="titu-item-valores">
+                  <img src="img/3-servicios/img-valores-02.webp" alt="#" />
+
+                  <p>Compromiso</p>
+                </div>
+
+                <p class="txt-item-valores">
+                  Nos comprometemos como empresa en asesorar y acompañar al
+                  comprador en todo el proceso de la adquisición de su
+                  propiedad.
+                </p>
+              </div>
+
+              <div class="item-valores">
+                <div class="titu-item-valores">
+                  <img src="img/3-servicios/img-valores-03.webp" alt="#" />
+
+                  <p>Responsabilidad</p>
+                </div>
+
+                <p class="txt-item-valores">
+                  Nos encargamos en entregar bienes y servicios de calidad.
+                </p>
+              </div>
+
+              <div class="item-valores">
+                <div class="titu-item-valores">
+                  <img src="img/3-servicios/img-valores-04.webp" alt="#" />
+
+                  <p>Seguridad</p>
+                </div>
+
+                <p class="txt-item-valores">
+                  Resaltar un vínculo de confianza en los que los clientes se
+                  sientan satisfechos en sus necesidades, deseos y proyectos.
+                </p>
+              </div>
+
+              <div class="item-valores">
+                <div class="titu-item-valores">
+                  <img src="img/3-servicios/img-valores-05.webp" alt="#" />
+
+                  <p>Honestidad</p>
+                </div>
+
+                <p class="txt-item-valores">
+                  Nos enfocamos en darle transparencia y credibilidad a nuestra
+                  empresa, dando el mejor servicio y generando confianza a
+                  través de la verdad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Valores End -->
+
+      <!-- inicio colapse faq -->
+      <div class="row btn-colapse colap-redes">
+        <div class="collapse" id="collapseExample">
+          <div class="row row-card align-items-center card-rrss card card-body">
+            <a
+              href="https://wa.link/w3zk0t"
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-1"
+            >
+              <i class="bi bi-whatsapp"></i>
             </a>
+
+            <a
+              href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MW95Z3M5NHNoa3BjbQ=="
+              class="btn btn-lg btn-lg-square btn-rrss btn-rrss-2"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
-        <!-- final colapse faq -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container container-foot-top py-5">
-                <div class="row-footer row g-5">
-                    <div class="col-foot col-foot-1 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Contáctanos</h5>
+        <a
+          class="btn-lg btn-lg-square btn-contac"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <i class="bi bi-chat-right-dots"></i>
+        </a>
+      </div>
+      <!-- final colapse faq -->
 
-                        <a class="btn btn-link" href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-footer text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container container-foot-top py-5">
+          <div class="row-footer row g-5">
+            <div class="col-foot col-foot-1 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Contáctanos</h5>
 
-                        <a class="btn btn-link" href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a
+                class="btn btn-link"
+                href="https://www.instagram.com/inmobiliariapuertoescondido?igsh=MTZkcG8yZjI4NGlhaw=="
+                ><i class="fa-brands fa-instagram"></i> Instagram</a
+              >
 
-                        <a class="btn btn-link" href="https://wa.link/w3zk0t"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              <a
+                class="btn btn-link"
+                href="https://www.facebook.com/share/1Hu2HXct3a/?mibextid=wwXIfr"
+                ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+              >
 
-                        <a class="btn btn-link" href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"><i class="fa-regular fa-envelope"></i> Correo</a>
-                    </div>
+              <a class="btn btn-link" href="https://wa.link/bdb0k1"
+                ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+              >
 
-                    <div class="col-foot col-foot-2 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Web</h5>
-
-                        <a class="btn btn-link link-foot" href="index.html">inicio</a>
-                        <a class="btn btn-link link-foot" href="fraccionamientos.html">propiedades</a>
-                        <a class="btn btn-link link-foot" href="servicios.html">servicios</a>
-                        <a class="btn btn-link link-foot" href="promociones.html">promociones</a>
-                    </div>
-
-                    <div class="col-foot col-foot-3 col-lg-3 col-md-6">
-                        <h5 class="titu-foot mb-4">Noticias</h5>
-
-                        <p class="txt-foot">Entérate de nuestras promociones.</p>
-
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Tu email">
-
-                            <button type="button" class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
-                        </div>
-                    </div>
-
-                    <div class="col-foot col-foot-4 col-lg-3 col-md-6">
-                        <img class="logo-footer" src="img/0-header/logo-footer.webp" alt="">
-                    </div>
-                </div>
+              <a
+                class="btn btn-link"
+                href="mailto:inmobiliariapuertoescondidopxm@hotmail.com?body=Hola%20muy%20buenas%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20propiedades%2C%20vengo%20de%20la%20p%C3%A1gina%20web"
+                ><i class="fa-regular fa-envelope"></i> Correo</a
+              >
             </div>
 
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
-                            &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos reservados. 
-                        </div>
+            <div class="col-foot col-foot-2 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Web</h5>
 
-                        <div class="col-md-6 firma-foot text-md-end">
-                           Desarrollado por <a class="dev-link" href="https://enfoca2sstudios.com/">Enfoca2's Studios</a>
-                        </div>
-                    </div>
-                </div>
+              <a class="btn btn-link link-foot" href="index.html">inicio</a>
+              <a class="btn btn-link link-foot" href="fraccionamientos.html"
+                >propiedades</a
+              >
+              <a class="btn btn-link link-foot" href="servicios.html"
+                >servicios</a
+              >
+              <a class="btn btn-link link-foot" href="promociones.html"
+                >promociones</a
+              >
             </div>
-        </div>
-        <!-- Footer End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <div class="col-foot col-foot-3 col-lg-3 col-md-6">
+              <h5 class="titu-foot mb-4">Noticias</h5>
+
+              <p class="txt-foot">Entérate de nuestras promociones.</p>
+
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Tu email"
+                />
+
+                <button
+                  type="button"
+                  class="btn btn-snd-foot py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Enviar
+                </button>
+              </div>
+            </div>
+
+            <div class="col-foot col-foot-4 col-lg-3 col-md-6">
+              <img
+                class="logo-footer"
+                src="img/0-header/logo-footer.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 firma-foot text-md-start mb-3 mb-md-0">
+                &copy; 2025 Inmobiliaria Puerto Escondido, Todos los derechos
+                reservados.
+              </div>
+
+              <div class="col-md-6 firma-foot text-md-end">
+                Desarrollado por
+                <a class="dev-link" href="https://enfoca2sstudios.com/"
+                  >Enfoca2's Studios</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn-lg btn-bcktop btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -367,6 +536,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
